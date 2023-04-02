@@ -5,6 +5,13 @@ const mnemonic = process.env.MNEMONIC;
 
 module.exports = {
   contracts_build_directory: path.join(__dirname, "dist/contracts"),
+  plugins: ["truffle-plugin-verify"],
+  api_keys: {
+    polygonscan: process.env.POLY_API_KEY,
+    testnet_polygonscan: process.env.POLY_API_KEY,
+    snowtrace: process.env.SNOW_API_KEY,
+    testnet_snowtrace: process.env.SNOW_API_KEY,
+  },
   networks: {
     develop: {
       host: "127.0.0.1", // Localhost (default: none)
@@ -103,7 +110,7 @@ module.exports = {
       skipDryRun: true,
     },
     fuji: {
-      provider: () => new HDWalletProvider(process.env.AVAX_MNEM, process.env.FUJI_URL),
+      provider: () => new HDWalletProvider(mnemonic, process.env.FUJI_URL),
       network_id: 43113,
       confirmations: 10,
       timeoutBlocks: 2000,

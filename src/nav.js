@@ -1,4 +1,4 @@
-import { MoBtn, MobNav, stage } from "./elements";
+import { MoBtn, stage } from "./elements";
 
 export let a = 0;
 export const showAdmin = async () => {
@@ -51,17 +51,14 @@ export let mob_toggle = true;
 export const toggle = () => {
   mob_toggle = !mob_toggle;
   if (mob_toggle == false) {
-    MobNav.style.display = "grid";
     MoBtn.style.transform = "rotate(0deg)";
   } else {
-    MobNav.style.display = "none";
     MoBtn.style.transform = "rotate(90deg)";
   }
   console.log(mob_toggle);
 };
 export const doAdmin = () => {
   console.log("// admin //");
-  MobNav.style.display = "none";
   MoBtn.style.transform = "rotate(90deg)";
   stage.innerHTML = document.getElementById("adminProfileTemp").innerHTML;
   const init = document.getElementById("init");
@@ -74,7 +71,6 @@ export const doAdmin = () => {
   modern.addEventListener("click", goColor);
 };
 export const openLanding = () => {
-  MobNav.style.display = "none";
   MoBtn.style.transform = "rotate(90deg)";
   stage.innerHTML = document.getElementById("landingTemp").innerHTML;
   console.log(mob_toggle);

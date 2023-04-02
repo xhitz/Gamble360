@@ -17,10 +17,10 @@ import { sha256 } from "crypto-hash";
 import UAuth from "@uauth/js";
 import { create } from "underscore";
 import { stripZeros } from "ethers/lib/utils";
-import { logo, wallet, mwallet, btn, mbtn, app, mapp, net, mnet, about, mabout, team, mteam, service, mservice, MoBtn, MobNav, admin, madmin, imprint, mimprint, terms, mterms, contact, mcontact, closeMob, stage } from "./elements";
-import { mob_toggle, toggle, a, showAdmin, fadeAdmin, doAdmin, openLanding, openWallet, openApp, openNet, openAbout, openService, openTeam, openImprint, openTerms, openContact, goColor } from "./nav";
+import { logo, wallet, btn, app, net, about, team, service, MoBtn, admin, imprint, terms, contact, stage } from "./elements";
+import { mob_toggle, toggle, a, showAdmin, doAdmin, openLanding, openWallet, openApp, openNet, openAbout, openService, openTeam, openImprint, openTerms, openContact, goColor } from "./nav";
 import { roll, makeId, doCollection, showRarity } from "./rarity";
-import { s0x, Friends, Groups } from "./web3imports";
+import { s0x, Friends, Groups, HiLo, RockPaperScissors, Lottery } from "./web3imports";
 
 // globals
 let accounts;
@@ -40,34 +40,83 @@ let signer = provider.getSigner();
 let user;
 console.log("// signer // ", signer);
 
+// CONTRACT IMPORT
+const s0xData = async () => {
+  let a;
+  if (Number(network) === 80001) a = 0;
+  if (Number(network) === 137) a = 1;
+
+  if (Number(network) === 43113) a = 0;
+  if (Number(network) === 137) a = 1;
+  const deploymentKey = await Object.keys(s0x.networks)[a];
+  console.log(deploymentKey);
+  return new ethers.Contract(s0x.networks[deploymentKey].address, s0x.abi, signer);
+};
+let S0X;
+const s0xLoad = async () => {
+  S0X = await s0xData();
+};
+
+const HiLoData = async () => {
+  let a;
+  if (Number(network) === 80001) a = 0;
+  if (Number(network) === 137) a = 1;
+  if (Number(network) === 43113) a = 0;
+  if (Number(network) === 137) a = 1;
+  const deploymentKey = await Object.keys(HiLo.networks)[a];
+  console.log(deploymentKey);
+  return new ethers.Contract(HiLo.networks[deploymentKey].address, HiLo.abi, signer);
+};
+let HILO;
+const HiLoLoad = async () => {
+  HILO = await HiLoData();
+};
+const RockPaperScissorsData = async () => {
+  let a;
+  if (Number(network) === 80001) a = 0;
+  if (Number(network) === 137) a = 1;
+  if (Number(network) === 43113) a = 0;
+  if (Number(network) === 137) a = 1;
+  const deploymentKey = await Object.keys(RockPaperScissors.networks)[a];
+  console.log(deploymentKey);
+  return new ethers.Contract(RockPaperScissors.networks[deploymentKey].address, RockPaperScissors.abi, signer);
+};
+let RPS;
+const RPSLoad = async () => {
+  RPS = await RockPaperScissorsData();
+};
+const LotteryData = async () => {
+  let a;
+  if (Number(network) === 80001) a = 0;
+  if (Number(network) === 137) a = 1;
+  if (Number(network) === 43113) a = 0;
+  if (Number(network) === 137) a = 1;
+  const deploymentKey = await Object.keys(Lottery.networks)[a];
+  console.log(deploymentKey);
+  return new ethers.Contract(Lottery.networks[deploymentKey].address, Lottery.abi, signer);
+};
+let LOTTERY;
+const LotteryLoad = async () => {
+  LOTTERY = await LotteryData();
+};
+
 // const url = "https://gateway.pinata.cloud/ipfs/QmamRUaez9fyXpeuTuiKCNvrKSsLxid4hzyKKkJXSi67LL/";
 
 admin.style.opacity = 0;
-madmin.style.opacity = 0;
-// Navigation Listeners
 
 admin.addEventListener("click", showAdmin);
-madmin.addEventListener("click", showAdmin);
 MoBtn.addEventListener("click", toggle);
-closeMob.addEventListener("click", toggle);
 wallet.addEventListener("click", openWallet);
 app.addEventListener("click", openApp);
 net.addEventListener("click", openNet);
 about.addEventListener("click", openAbout);
 service.addEventListener("click", openService);
 team.addEventListener("click", openTeam);
-mwallet.addEventListener("click", openWallet);
-mapp.addEventListener("click", openApp);
-mnet.addEventListener("click", openNet);
-mabout.addEventListener("click", openAbout);
-mservice.addEventListener("click", openService);
-mteam.addEventListener("click", openTeam);
+
 contact.addEventListener("click", openContact);
 terms.addEventListener("click", openTerms);
 imprint.addEventListener("click", openImprint);
-mcontact.addEventListener("click", openContact);
-mterms.addEventListener("click", openTerms);
-mimprint.addEventListener("click", openImprint);
+
 logo.addEventListener("click", openLanding);
 
 // User Login System
@@ -82,20 +131,27 @@ const onClickConnect = async () => {
     network = await ethereum.request({ method: "net_version" });
     balance = await provider.getBalance(user);
     wallet.innerHTML = (balance / 1e18).toFixed(2);
-    mwallet.innerHTML = (balance / 1e18).toFixed(2);
+    // mwallet.innerHTML = (balance / 1e18).toFixed(2);
     if (Number(network) === 137 || Number(network) === 80001) {
       net.innerHTML = "<img src='https://cdn.iconscout.com/icon/free/png-256/polygon-token-4086724-3379854.png' id='micro' />";
-      mnet.innerHTML = "<img src='https://cdn.iconscout.com/icon/free/png-256/polygon-token-4086724-3379854.png' id='micro' /> POLYGON";
+      // mnet.innerHTML = "<img src='https://cdn.iconscout.com/icon/free/png-256/polygon-token-4086724-3379854.png' id='micro' /> POLYGON";
     } else if (Number(network) === 9001 || Number(network) === 9000) {
       net.innerHTML = "<img src='https://assets.coingecko.com/coins/images/24023/large/evmos.png' id='micro' />";
-      mnet.innerHTML = "<img src='https://assets.coingecko.com/coins/images/24023/large/evmos.png' id='micro' /> EVMOS";
+      // mnet.innerHTML = "<img src='https://assets.coingecko.com/coins/images/24023/large/evmos.png' id='micro' /> EVMOS";
     } else if (Number(network) === 1 || Number(network) === 4) {
       net.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' />";
-      mnet.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' /> ETH";
+      // mnet.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' /> ETH";
+    } else if (Number(network) === 43114 || Number(network) === 43113) {
+      net.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' />";
+      // mnet.innerHTML = "<img src='https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg' id='micro' /> ETH";
     } else {
       net.innerHTML = "SWITCH";
-      mnet.innerHTML = "SWITCH";
+      // mnet.innerHTML = "SWITCH";
     }
+    await s0xLoad();
+    await HiLoLoad();
+    await RPSLoad();
+    await LotteryLoad();
 
     let uData = await checkUser();
     console.log("// Check User // ", uData);
@@ -131,24 +187,15 @@ const onClickConnect = async () => {
   }
   toggle();
 };
-const checkUser = async () => {
-  const S0X = await s0xData();
-  // Is User
-  const isUser = await S0X.isUser(user)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
 
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
+const checkUser = async () => {
+  // Is User
+  console.log(S0X, user);
+  const isUser = await S0X.isUser(user);
   if (isUser === true) {
     const role = await S0X.roles(user)
       .then((res) => {
-        console.log("// makeUser response : ", Number(res._hex));
+        console.log("// roles response : ", Number(res._hex));
         // action
 
         return Number(res._hex);
@@ -444,7 +491,6 @@ const goCreateUser = async (e) => {
   console.log("// go create // ");
 };
 const onReadUserInfo = async () => {
-  const S0X = await s0xData();
   const userDIAS = await S0X.showUser(user);
   console.log(userDIAS);
   return JSON.parse(userDIAS);
@@ -499,7 +545,6 @@ const onSubmitSignup = async (e) => {
     diasFTCH.profileObject.traits.uSocial.medium = uMedium.value;
     console.log(diasFTCH);
     let name = uName.value;
-    const S0X = await s0xData();
     const id = await S0X.isUser(user);
     rotate();
 
@@ -551,7 +596,7 @@ const goProfile = async () => {
   const userOBJ = await onReadUserInfo();
   console.log(userOBJ);
   btn.innerHTML = "<img id='micro' src='" + userOBJ.profileObject.traits.uAvt + "'/>";
-  mbtn.innerHTML = "<img id='micro' src='" + userOBJ.profileObject.traits.uAvt + "'/>" + userOBJ.profileObject.traits.uName;
+  // mbtn.innerHTML = "<img id='micro' src='" + userOBJ.profileObject.traits.uAvt + "'/>" + userOBJ.profileObject.traits.uName;
   stage.innerHTML = document.getElementById("userProfileTemp").innerHTML;
   const uName = document.getElementById("userName");
   const uEmail = document.getElementById("userEmail");
@@ -610,153 +655,12 @@ const goAdmin = async () => {
   console.log("// admin // ");
   const userOBJ = await onReadUserInfo();
   btn.innerHTML = "@" + userOBJ.name;
-  mbtn.innerHTML = "@" + userOBJ.name;
+  // mbtn.innerHTML = "@" + userOBJ.name;
 
   doAdmin();
 };
 const goCatch = () => {};
 const checkAdmin = () => {};
-
-// CONTRACT IMPORT
-const s0xData = async () => {
-  let a;
-  if (Number(network) === 80001) a = 0;
-  if (Number(network) === 137) a = 1;
-  const deploymentKey = await Object.keys(s0x.networks)[a];
-  console.log(deploymentKey);
-  return new ethers.Contract(s0x.networks[deploymentKey].address, s0x.abi, signer);
-};
-const s0xLoad = async () => {
-  const S0X = await s0xData();
-  // Is User
-  const isUser = await S0X.isUser(_adr)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
-  isUser.wait().then((res) => {
-    console.log("// makeUser response : ", res);
-    // action
-    return res;
-  });
-  // Get Role
-  const getRole = await S0X.roles(_adr)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
-  getRole.wait().then((res) => {
-    console.log("// makeUser response : ", res);
-    // action
-    return res;
-  });
-  // Get Name
-  const getName = await S0X.getName(_adr)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
-  getName.wait().then((res) => {
-    console.log("// makeUser response : ", res);
-    // action
-    return res;
-  });
-  // Make User
-  const makeUser = await S0X.createUserAccount(_dias, _user, _name)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
-  makeUser.wait().then((res) => {
-    console.log("// makeUser response : ", res);
-    // action
-    return res;
-  });
-  // Edit User
-  const editUser = await S0X.editUser(_dias)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
-  editUser.wait().then((res) => {
-    console.log("// makeUser response : ", res);
-    // action
-    return res;
-  });
-  // Admin Edit User
-  const adminEditUser = await S0X.adminEditUser(_dias)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
-  adminEditUser.wait().then((res) => {
-    console.log("// makeUser response : ", res);
-    // action
-    return res;
-  });
-  // Show User
-  const showUser = await S0X.editUser(_adr)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
-  showUser.wait().then((res) => {
-    console.log("// makeUser response : ", res);
-    // action
-    return res;
-  });
-  // Show Impacts
-  const showImpx = await S0X.showImpx(_adr)
-    .then((res) => {
-      console.log("// makeUser response : ", res);
-      // action
-      return res;
-    })
-    .catch((err) => {
-      console.error(err);
-      return err;
-    });
-  showImpx.wait().then((res) => {
-    console.log("// makeUser response : ", res);
-    // action
-    return res;
-  });
-};
 
 const web3init = async () => {
   const isMetaMaskInstalled = () => {
@@ -777,14 +681,14 @@ const web3init = async () => {
       //If it isn't installed we ask the user to click to install it
       btn.innerText = "install metamask!";
       btn.addEventListener("click", clickInstall);
-      mbtn.innerText = "install metamask!";
-      mbtn.addEventListener("click", clickInstall);
+      // mbtn.innerText = "install metamask!";
+      // mbtn.addEventListener("click", clickInstall);
     } else {
       //If it is installed we change our button text
       btn.innerText = "LOG";
       btn.addEventListener("click", onClickConnect);
-      mbtn.innerText = "LOG";
-      mbtn.addEventListener("click", onClickConnect);
+      // mbtn.innerText = "LOG";
+      // mbtn.addEventListener("click", onClickConnect);
     }
   };
   MetaMaskClientCheck();

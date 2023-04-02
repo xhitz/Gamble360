@@ -55,6 +55,7 @@
     "parcel": "^2.5.0",
     "pedometer": "^0.0.5",
     "three": "^0.136.0",
+    "truffle-plugin-verify": "^0.6.2",
     "underscore": "^1.13.2",
     "updtr": "^4.0.0",
     "yargs": "^17.3.1",
