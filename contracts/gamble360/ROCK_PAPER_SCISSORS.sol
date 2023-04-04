@@ -46,9 +46,9 @@ contract ROCK_PAPER_SCISSORS is standards {
     }
 
     mapping(uint256 => Game) public games;
-    mapping(address => uint256) private myGames;
+    mapping(address => uint256) public myGames;
     mapping(address => mapping(uint256 => Game)) public myGame;
-    mapping(uint256 => bool) played;
+    mapping(uint256 => bool) public played;
 
     constructor() {
         t = 1 + (block.timestamp % 9);

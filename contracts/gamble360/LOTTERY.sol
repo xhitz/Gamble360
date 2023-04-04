@@ -45,10 +45,10 @@ contract LOTTERY is ERC721, standards {
     uint256 t;
     mapping(uint256 => uint256) public count;
     mapping(uint256 => uint256) public dias;
-    mapping(address => uint256) myTickets;
+    mapping(address => uint256) public myTickets;
     mapping(address => mapping(uint256 => Lottery)) public myTicket;
     mapping(uint256 => mapping(uint256 => uint256)) public results;
-    mapping(uint256 => mapping(uint256 => mapping(uint256 => uint256))) claims;
+    mapping(uint256 => mapping(uint256 => mapping(uint256 => uint256))) public claims;
 
     constructor() ERC721("Gamble360 Lottery Ticket", "gLOTTO") {
         fee = 25;

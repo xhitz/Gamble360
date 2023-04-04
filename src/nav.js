@@ -1,4 +1,5 @@
-import { MoBtn, stage } from "./elements";
+import { hi, lo, MoBtn, stage } from "./elements";
+import { HILO, RPS, LOTTERY, doHi, doLo } from "./app";
 
 export let a = 0;
 export const showAdmin = async () => {
@@ -31,7 +32,6 @@ export const showAdmin = async () => {
   admin.removeEventListener("click", showAdmin);
   admin.addEventListener("click", fadeAdmin);
 };
-
 export const fadeAdmin = () => {
   console.log("// stop admin");
   const outs = setInterval(() => {
@@ -90,7 +90,12 @@ export const openNet = () => {
 export const openAbout = () => {
   toggle();
   stage.innerHTML = document.getElementById("aboutTemp").innerHTML;
+  console.log(hi, lo);
+  hi.addEventListener("click", doHi);
+  hi.style.background = "blue !important";
+  lo.addEventListener("click", doLo);
 };
+
 export const openService = () => {
   toggle();
   stage.innerHTML = document.getElementById("serviceTemp").innerHTML;

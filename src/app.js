@@ -17,10 +17,45 @@ import { sha256 } from "crypto-hash";
 import UAuth from "@uauth/js";
 import { create } from "underscore";
 import { stripZeros } from "ethers/lib/utils";
-import { logo, wallet, btn, app, net, about, team, service, MoBtn, admin, imprint, terms, contact, stage } from "./elements";
-import { mob_toggle, toggle, a, showAdmin, doAdmin, openLanding, openWallet, openApp, openNet, openAbout, openService, openTeam, openImprint, openTerms, openContact, goColor } from "./nav";
+// import { logo, wallet, btn, app, net, about, team, service, MoBtn, admin, imprint, terms, contact, stage } from "./elements";
+// import { mob_toggle, toggle, a, showAdmin, doAdmin, openLanding, openWallet, openApp, openNet, openAbout, openService, openTeam, openImprint, openTerms, openContact, goColor } from "./nav";
 import { roll, makeId, doCollection, showRarity } from "./rarity";
 import { s0x, Friends, Groups, HiLo, RockPaperScissors, Lottery } from "./web3imports";
+
+const logo = document.getElementById("logo");
+const wallet = document.getElementById("wallet");
+const btn = document.getElementById("connect");
+const app = document.getElementById("app");
+const net = document.getElementById("net");
+const about = document.getElementById("about");
+const service = document.getElementById("service");
+const team = document.getElementById("team");
+const MoBtn = document.getElementById("mobbtn");
+const closeMob = document.getElementById("closemob");
+const stage = document.getElementById("stage");
+const admin = document.getElementById("admin");
+const imprint = document.getElementById("imprint");
+const terms = document.getElementById("terms");
+const contact = document.getElementById("contact");
+let hi = document.getElementById("hi");
+let lo = document.getElementById("lo");
+let r = document.getElementById("r");
+let p = document.getElementById("p");
+let s = document.getElementById("s");
+let one = document.getElementById("one");
+let two = document.getElementById("two");
+let four = document.getElementById("four");
+let eight = document.getElementById("eight");
+let ten = document.getElementById("ten");
+let twen = document.getElementById("twen");
+let fourty = document.getElementById("fourt");
+let eighty = document.getElementById("eighty");
+const lotteryForm = document.getElementById("lotteryForm");
+const lotteryList = document.getElementById("lotteryList");
+const total = document.getElementById("total");
+const maxTickets = document.getElementById("maxTickets");
+const winners = document.getElementById("winners");
+const make = document.getElementById("make");
 
 // globals
 let accounts;
@@ -98,6 +133,287 @@ const LotteryData = async () => {
 let LOTTERY;
 const LotteryLoad = async () => {
   LOTTERY = await LotteryData();
+};
+const doHi = () => {
+  console.log("hi");
+  goHi();
+};
+const goHi = async () => {
+  console.log("hi");
+  await HiLoLoad();
+  const goHi = await HILO.setGame(true, { value: BigInt(HILOVAL * 1e16) });
+};
+const doLo = () => {
+  console.log("lo");
+  goLo();
+};
+const goLo = async () => {
+  console.log("lo");
+  await HiLoLoad();
+  const goLo = await HILO.setGame(false, { value: BigInt(HILOVAL * 1e16) });
+};
+
+const doRock = () => {
+  console.log("rock");
+  goRock();
+};
+const goRock = async () => {
+  console.log("rock");
+  await RPSLoad();
+  const goRock = await RPS.setGame(1, { value: BigInt(RPSVAL * 1e16) });
+};
+
+const doPaper = () => {
+  console.log("paper");
+  goPaper();
+};
+const goPaper = async () => {
+  console.log("paper");
+  await RPSLoad();
+  const goPaper = await RPS.setGame(2, { value: BigInt(RPSVAL * 1e16) });
+};
+
+const doScissors = () => {
+  console.log("scissors");
+  goScissors();
+};
+const goScissors = async () => {
+  console.log("scissors");
+  await RPSLoad();
+  const goScissors = await RPS.setGame(3, { value: BigInt(RPSVAL * 1e16) });
+};
+
+const doLotteryMake = () => {
+  console.log("make lottery");
+  goLotteryMake();
+};
+const goLotteryMake = async () => {
+  console.log("make lottery");
+  await LotteryLoad();
+  const goLotteryMake = await Lottery.setGame(3, { value: BigInt(LOTTERYVAL * 1e16) });
+};
+
+const doBuyTicket = () => {
+  console.log("scissors");
+  goBuyTicket();
+};
+const goBuyTicket = async () => {
+  console.log("scissors");
+  await LotteryLoad();
+  const goLotteryMake = await Lottery.setGame(3, { value: BigInt(LOTTERYVAL * 1e16) });
+};
+
+let a = 0;
+const showAdmin = async () => {
+  console.log("// start admin");
+  let ins;
+  let time;
+  const leave = () => {
+    console.log("// leave called //");
+    clearInterval(ins);
+    fadeAdmin();
+  };
+  const stopTime = () => {
+    console.log("// stop called //");
+    clearTimeout(time);
+    clearInterval(ins);
+  };
+  admin.addEventListener("mouseleave", stopTime);
+  time = setTimeout(() => {
+    admin.removeEventListener("mouseleave", stopTime);
+    admin.addEventListener("mouseleave", leave);
+    ins = setInterval(() => {
+      if (a < 100) {
+        a++;
+        console.log("// a val // ", a);
+        admin.style.opacity = a / 100;
+      } else stopTime();
+    }, 10);
+  }, 5000);
+
+  admin.removeEventListener("click", showAdmin);
+  admin.addEventListener("click", fadeAdmin);
+};
+const fadeAdmin = () => {
+  console.log("// stop admin");
+  const outs = setInterval(() => {
+    if (a > 0) {
+      a--;
+      console.log("// stop // ", a);
+      admin.style.opacity = a / 100;
+    } else {
+      clearInterval(outs);
+      doAdmin();
+    }
+  }, 10);
+  admin.removeEventListener("click", fadeAdmin);
+  admin.addEventListener("click", showAdmin);
+};
+let mob_toggle = true;
+const toggle = () => {
+  mob_toggle = !mob_toggle;
+  if (mob_toggle == false) {
+    MoBtn.style.transform = "rotate(0deg)";
+  } else {
+    MoBtn.style.transform = "rotate(90deg)";
+  }
+  console.log(mob_toggle);
+};
+const doAdmin = () => {
+  console.log("// admin //");
+  MoBtn.style.transform = "rotate(90deg)";
+  stage.innerHTML = document.getElementById("adminProfileTemp").innerHTML;
+  const init = document.getElementById("init");
+  const eco = document.getElementById("eco");
+  const irie = document.getElementById("irie");
+  const modern = document.getElementById("modern");
+  init.addEventListener("click", goColor);
+  irie.addEventListener("click", goColor);
+  eco.addEventListener("click", goColor);
+  modern.addEventListener("click", goColor);
+};
+const openLanding = () => {
+  MoBtn.style.transform = "rotate(90deg)";
+  stage.innerHTML = document.getElementById("landingTemp").innerHTML;
+  console.log(mob_toggle);
+};
+const openWallet = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("walletTemp").innerHTML;
+};
+const openApp = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("appTemp").innerHTML;
+};
+const openNet = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("netTemp").innerHTML;
+};
+let HILOVAL = 0;
+const getElements = () => {
+  hi = document.getElementById("hi");
+  lo = document.getElementById("lo");
+  one = document.getElementById("one");
+  two = document.getElementById("two");
+  four = document.getElementById("four");
+  eight = document.getElementById("eight");
+  ten = document.getElementById("ten");
+  twen = document.getElementById("twen");
+  fourty = document.getElementById("fourt");
+  eighty = document.getElementById("eighty");
+};
+
+const openAbout = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("aboutTemp").innerHTML;
+  console.log(hi, lo);
+  getElements();
+  hi.addEventListener("click", doHi);
+  lo.addEventListener("click", doLo);
+  one.addEventListener("click", setVal);
+  two.addEventListener("click", setVal);
+  four.addEventListener("click", setVal);
+  eight.addEventListener("click", setVal);
+  ten.addEventListener("click", setVal);
+  twen.addEventListener("click", setVal);
+  fourty.addEventListener("click", setVal);
+  eighty.addEventListener("click", setVal);
+};
+let RPSVAL = 0;
+const openService = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("serviceTemp").innerHTML;
+  r = document.getElementById("r");
+  p = document.getElementById("p");
+  s = document.getElementById("s");
+  getElements();
+  r.addEventListener("click", doRock);
+  p.addEventListener("click", doPaper);
+  s.addEventListener("click", doScissors);
+  one.addEventListener("click", setVal);
+  two.addEventListener("click", setVal);
+  four.addEventListener("click", setVal);
+  eight.addEventListener("click", setVal);
+  ten.addEventListener("click", setVal);
+  twen.addEventListener("click", setVal);
+  fourty.addEventListener("click", setVal);
+  eighty.addEventListener("click", setVal);
+};
+let LOTTERYVAL = 0;
+const openTeam = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("teamTemp").innerHTML;
+};
+const setVal = (e) => {
+  if (e.target.parentElement.id == "one") {
+    RPSVAL = 1;
+    HILOVAL = 1;
+    LOTTERYVAL = 1;
+  }
+  if (e.target.parentElement.id == "two") {
+    RPSVAL = 2;
+    HILOVAL = 2;
+    LOTTERYVAL = 2;
+  }
+  if (e.target.parentElement.id == "four") {
+    RPSVAL = 4;
+    HILOVAL = 4;
+    LOTTERYVAL = 4;
+  }
+  if (e.target.parentElement.id == "eight") {
+    RPSVAL = 8;
+    HILOVAL = 8;
+    LOTTERYVAL = 8;
+  }
+  if (e.target.parentElement.id == "ten") {
+    RPSVAL = 10;
+    HILOVAL = 10;
+    LOTTERYVAL = 10;
+  }
+  if (e.target.parentElement.id == "twen") {
+    RPSVAL = 20;
+    HILOVAL = 20;
+    LOTTERYVAL = 20;
+  }
+  if (e.target.parentElement.id == "fourt") {
+    RPSVAL = 40;
+    HILOVAL = 40;
+    LOTTERYVAL = 40;
+  }
+  if (e.target.parentElement.id == "eighty") {
+    RPSVAL = 80;
+    HILOVAL = 80;
+    LOTTERYVAL = 80;
+  }
+  console.log(e.target.parentElement.id, HILOVAL);
+  chipGlow();
+};
+const chipGlow = () => {
+  getElements();
+  one.style.background = HILOVAL == 1 ? "orange" : "white";
+  two.style.background = HILOVAL == 2 ? "orange" : "white";
+  four.style.background = HILOVAL == 4 ? "orange" : "white";
+  eight.style.background = HILOVAL == 8 ? "orange" : "white";
+  ten.style.background = HILOVAL == 10 ? "orange" : "white";
+  twen.style.background = HILOVAL == 20 ? "orange" : "white";
+  fourty.style.background = HILOVAL == 40 ? "orange" : "white";
+  eighty.style.background = HILOVAL == 80 ? "orange" : "white";
+};
+const openImprint = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("imprintTemp").innerHTML;
+};
+const openTerms = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("termsTemp").innerHTML;
+};
+const openContact = () => {
+  toggle();
+  stage.innerHTML = document.getElementById("contactTemp").innerHTML;
+};
+const goColor = (e) => {
+  console.log("// go color // ", e.target.id);
+  document.body.id = e.target.value + "go";
 };
 
 // const url = "https://gateway.pinata.cloud/ipfs/QmamRUaez9fyXpeuTuiKCNvrKSsLxid4hzyKKkJXSi67LL/";
@@ -463,9 +779,11 @@ const checkForm = () => {
   const submit = document.getElementById("submit_create");
   let goSub = false;
   if (uName.value.length > 4 && uEmail.value.length > 10 && uCountry.value !== "default" && uStatus.value.length > 4) {
+    console.log(uStatus.value, uStatus.value.length, "check 1");
     if (uName.value.length < 22 && uEmail.value.length < 44 && uWWW.value.length < 22 && uStatus.value.length < 257) {
+      console.log(uStatus.value, "check 2");
       if ((uTwitter.value.length > 4 && uTwitter.value.length < 22) || (uTel.value.length > 4 && uTel.value.length < 22) || (uGithub.value.length > 4 && uGithub.value.length < 22) || (uInsta.value.length > 4 && uInsta.value.length < 22) || (uMedium.value.length > 4 && uMedium.value.length < 22) || (uLinked.value.length > 4 && uLinked.value.length < 22)) {
-        console.log("go");
+        console.log(uTwitter.value, uTel.value, "go");
         goSub = true;
       } else {
         // no social selected at leat one social connection needed
@@ -546,7 +864,7 @@ const onSubmitSignup = async (e) => {
     console.log(diasFTCH);
     let name = uName.value;
     const id = await S0X.isUser(user);
-    rotate();
+    // rotate();
 
     const makeUser = await S0X.createUserAccount(JSON.stringify(diasFTCH), user, name)
       .then((res) => {
@@ -695,4 +1013,4 @@ const web3init = async () => {
 };
 // IMPRTANT INITIAL FUNCTION CALL
 web3init();
-// IMPORTANT FUNCTION WEB3INIT DO NOT EDIT END //
+// IMPORTANT FUNCTION WEB3INIT DO NOT EDIT END

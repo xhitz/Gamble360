@@ -1,357 +1,200 @@
 * {
   box-sizing: border-box;
 }
-
-#initgo {
-  @import "colorsets/init.scss";
+$bg: black;
+$fc: rgb(87, 87, 87);
+$bc: rgb(167, 167, 167);
+$close: hsl(0, 58%, 19%);
+$border: rgb(48, 54, 79);
+$ld: rgb(184, 211, 245);
+.err {
+  border: 1px solid $close;
+}
+a {
+  color: $bc;
+}
+#nav,
+#foot,
+#stage {
   background: $bc;
-  color: $fc;
-  .err {
-    border: 1px solid $close;
-  }
-  a {
-    color: $bc;
-  }
-  #nav,
-  #foot,
-  #stage {
-    background: $bc;
-    background: linear-gradient(90deg, rgba($bc, 0.5) 20%, rgba($ld, 1) 80%);
-  }
-  #mobnav {
-    background: $bg;
-  }
-  #mobNavList {
-    background: $bg;
-    color: $fc;
-  }
-  #closemob {
-    background: $bc;
-    color: $fc;
-  }
-  #closemob:hover {
-    background: $close;
-  }
-  .thick1,
-  .thick2,
-  #mobbtn {
-    background: $fc;
-  }
-  .link:hover,
-  .mlink:hover,
-  #contact:hover,
-  #imprint:hover,
-  #terms:hover,
-  #mcontact:hover,
-  #mimprint:hover,
-  #mterms:hover {
-    background: $bc;
-  }
-  #admin,
-  #madmin {
-    background: $bg;
-    color: $bc;
-  }
-  .line {
-    background: $border;
-  }
-  input,
-  select,
-  textarea,
-  button {
-    border: 1px solid $border;
-  }
-  input {
-    margin: 10px 5px;
-
-    border-radius: 1px;
-    border: 1px solid white;
-  }
-  button {
-    background: $ld;
-    color: $bc;
-  }
-  button:hover {
-    background: $bc;
-    color: $ld;
-  }
-  #loader,
-  #square:hover {
-    background: $bc;
-  }
-  #loader:hover,
-  #square {
-    background: $ld;
-  }
+  background: linear-gradient(90deg, rgba($bc, 0.5) 20%, rgba($ld, 1) 80%);
 }
 
-#init {
-  @import "colorsets/init.scss";
-  background: $bc;
-  color: $fc;
+.chip {
+  background: white;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 0;
   text-align: center;
-  padding-left: 0;
+  color: white;
+}
+.chip:hover {
+  background: orange;
+  color: blue;
 }
 
-#ecogo {
-  @import "colorsets/eco.scss";
-  background: $bc;
-  color: $fc;
-  .err {
-    border: 1px solid $close;
-  }
-  a {
-    color: $bc;
-  }
-  #nav,
-  #foot,
-  #stage {
-    background: $bc;
-    background: linear-gradient(90deg, rgba($bc, 0.5) 20%, rgba($ld, 1) 80%);
-  }
-  #mobnav {
-    background: $bg;
-  }
-  #mobNavList {
-    background: $bg;
-    color: $fc;
-  }
-  #closemob {
-    background: $bc;
-    color: $fc;
-  }
-  #closemob:hover {
-    background: $close;
-  }
-  .thick1,
-  .thick2,
-  #mobbtn {
-    background: $bg;
-  }
-  .link:hover,
-  .mlink:hover,
-  #contact:hover,
-  #imprint:hover,
-  #terms:hover,
-  #mcontact:hover,
-  #mimprint:hover,
-  #mterms:hover {
-    background: $bc;
-  }
-  #admin,
-  #madmin {
-    background: $bg;
-    color: $bc;
-  }
-  .line {
-    background: $border;
-  }
-  input,
-  select,
-  textarea,
-  button {
-    border: 1px solid $border;
-  }
-  input {
-    justify-content: center;
-    align-items: center;
-  }
-  button {
-    background: $ld;
-    color: $bc;
-  }
-  button:hover {
-    background: $bc;
-    color: $ld;
-  }
-  #loader,
-  #square:hover {
-    background: $bc;
-  }
-  #loader:hover,
-  #square {
-    background: $ld;
-  }
+#chips {
+  width: 400px;
+  height: 250;
+  padding: 0;
+  margin: 0;
+  grid-column: 1/4;
+  grid-row: 2;
 }
-#eco {
-  @import "colorsets/eco.scss";
-  background: $bc;
-  color: $fc;
+#hi {
+  background: green;
+  border-radius: 9px 0 0 9px;
+  padding: 0.5em;
+  font-size: 5em;
+  color: white;
   text-align: center;
-  padding-left: 0;
+  grid-column: 3;
+  grid-row: 2;
+  height: 150px;
+  border: 1px solid grey;
 }
-
-#iriego {
-  @import "colorsets/irie.scss";
-  background: $bc;
-  color: $fc;
-  .err {
-    border: 1px solid $close;
-  }
-  a {
-    color: $bc;
-  }
-  #nav,
-  #foot,
-  #stage {
-    background: $bc;
-    background: linear-gradient(90deg, rgba($bc, 0.5) 20%, rgba($ld, 1) 80%);
-  }
-  #mobnav {
-    background: $bg;
-  }
-  #mobNavList {
-    background: $bg;
-    color: $fc;
-  }
-  #closemob {
-    background: $bc;
-    color: $fc;
-  }
-  #closemob:hover {
-    background: $close;
-  }
-  .thick1,
-  .thick2,
-  #mobbtn {
-    background: $fc;
-  }
-  .link:hover,
-  .mlink:hover,
-  #contact:hover,
-  #imprint:hover,
-  #terms:hover,
-  #mcontact:hover,
-  #mimprint:hover,
-  #mterms:hover {
-    background: $bc;
-  }
-  #admin,
-  #madmin {
-    background: $bg;
-    color: $bc;
-  }
-  .line {
-    background: $border;
-  }
-  input,
-  select,
-  textarea,
-  button {
-    border: 1px solid $border;
-  }
-  button {
-    background: $ld;
-    color: $bc;
-  }
-  button:hover {
-    background: $bc;
-    color: $ld;
-  }
-  #loader,
-  #square:hover {
-    background: $bc;
-  }
-  #loader:hover,
-  #square {
-    background: $ld;
-  }
-}
-#irie {
-  @import "colorsets/irie.scss";
-  background: $bc;
-  color: $fc;
+#or {
+  background: grey;
+  padding: 0.5em;
+  font-size: 5em;
+  color: white;
   text-align: center;
-  padding-left: 0;
+  grid-column: 4;
+  grid-row: 2;
+  height: 150px;
+  border: 1px solid grey;
 }
-
-#moderngo {
-  @import "colorsets/modern.scss";
-  background: $bc;
-  color: $fc;
-  .err {
-    border: 1px solid $close;
-  }
-  a {
-    color: $bc;
-  }
-  #nav,
-  #foot,
-  #stage {
-    background: $bc;
-    background: linear-gradient(90deg, rgba($bc, 0.5) 20%, rgba($ld, 1) 80%);
-  }
-  #mobnav {
-    background: $bg;
-  }
-  #mobNavList {
-    background: $bg;
-    color: $fc;
-  }
-  #closemob {
-    background: $bc;
-    color: $fc;
-  }
-  #closemob:hover {
-    background: $close;
-  }
-  .thick1,
-  .thick2,
-  #mobbtn {
-    background: $bg;
-  }
-  .link:hover,
-  .mlink:hover,
-  #contact:hover,
-  #imprint:hover,
-  #terms:hover,
-  #mcontact:hover,
-  #mimprint:hover,
-  #mterms:hover {
-    background: $bc;
-  }
-  #admin,
-  #madmin {
-    background: $bg;
-    color: $bc;
-  }
-  .line {
-    background: $border;
-  }
-  input,
-  select,
-  textarea,
-  button {
-    border: 1px solid $border;
-  }
-  button {
-    background: $ld;
-    color: $bc;
-  }
-  button:hover {
-    background: $bc;
-    color: $ld;
-  }
-  #loader,
-  #square:hover {
-    background: $bc;
-  }
-  #loader:hover,
-  #square {
-    background: $ld;
-  }
-}
-#modern {
-  @import "colorsets/modern.scss";
-  background: $bc;
-  color: $fc;
+#lo {
+  background: red;
+  border-radius: 0 9px 9px 0;
+  padding: 0.5em;
+  font-size: 5em;
+  color: white;
   text-align: center;
-  padding-left: 0;
+  grid-column: 5;
+  grid-row: 2;
+  height: 150px;
+  border: 1px solid grey;
 }
+#r,
+#p,
+#s {
+  background: green;
+  padding: 0.5em;
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  grid-column: 4;
+  grid-row: 2;
+  height: 150px;
+  border: 1px solid grey;
+}
+#r {
+  border-radius: 9px 0 0 9px;
+  grid-column: 3;
+  grid-row: 2;
+}
+#p {
+  border-radius: 0 0 0 0;
+  grid-column: 4;
+  grid-row: 2;
+}
+#s {
+  border-radius: 0 9px 9px 0;
+  grid-column: 5;
+  grid-row: 2;
+}
+#lotteryForm {
+  grid-column: 3/-1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 36px 36px;
+  padding: 0.5em;
+  border: 1px solid grey;
+  border-radius: 9px;
+}
+#make {
+  grid-column: 4;
+  grid-row: 1/3;
+}
+#lotteryList {
+  grid-column: 3/-1;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.lotto {
+  display: grid;
+  grid-template-rows: 24px 24px 24px 24px 24px 42px 68px;
+  padding: 0.5em;
+  border: 1px solid grey;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 0.7em;
+}
+.lotto:hover {
+  background: rgba(127, 127, 127, 0.5);
+}
+#buyTickets {
+  width: 70px;
+}
+#headline {
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+.link:hover,
+.mlink:hover,
+#contact:hover,
+#imprint:hover,
+#terms:hover,
+#mcontact:hover,
+#mimprint:hover,
+#mterms:hover {
+  background: $bc;
+}
+#admin,
+#madmin {
+  background: $bg;
+  color: $bc;
+}
+.line {
+  background: $border;
+}
+input,
+select,
+textarea,
+button {
+  border: 1px solid $border;
+}
+input {
+  margin: 10px 5px;
 
+  border-radius: 1px;
+  border: 1px solid white;
+}
+button {
+  background: $ld;
+  color: $bc;
+}
+button:hover {
+  background: $bc;
+  color: $ld;
+}
+#loader,
+#square:hover {
+  background: $bc;
+}
+#loader:hover,
+#square {
+  background: $ld;
+}
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 body {
   position: absolute;
-  font-family: "helvetica";
+  font-family: "Merriweather";
   font-size: 0.9em;
   font-weight: 900;
   letter-spacing: 0.1em;
@@ -392,8 +235,10 @@ input[type="checkbox"] {
   padding-top: 4px;
 }
 #logIMG {
-  margin-top: 2px;
-  height: 18px;
+  margin-top: 6px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 60px;
   width: auto;
 }
 #landingTemp,
