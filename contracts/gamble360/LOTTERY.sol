@@ -40,7 +40,7 @@ contract LOTTERY is ERC721, standards {
         uint256 status;
     }
     Lottery[] public lotterys;
-    uint256 l;
+    uint256 public l;
     uint256 rand;
     uint256 t;
     mapping(uint256 => uint256) public count;

@@ -51,17 +51,21 @@ let twen = document.getElementById("twen");
 let fourty = document.getElementById("fourt");
 let eighty = document.getElementById("eighty");
 let history = document.getElementById("history");
-const lotteryForm = document.getElementById("lotteryForm");
-const lotteryList = document.getElementById("lotteryList");
-const total = document.getElementById("total");
-const maxTickets = document.getElementById("maxTickets");
-const winners = document.getElementById("winners");
-const make = document.getElementById("make");
+let lotteryForm = document.getElementById("lotteryForm");
+let lotteryList = document.getElementById("lotteryList");
+let total = document.getElementById("total");
+let maxTickets = document.getElementById("maxTickets");
+let winners = document.getElementById("winners");
+let make = document.getElementById("make");
 
 // globals
 let accounts;
 let network;
 let balance;
+let lottoID = [];
+let lottoPRICE = [];
+let lottoAMOUNT = [];
+let lottoBUY = [];
 const client = require("ipfs-http-client");
 const ipfs = client.create({
   host: "ipfs.infura.io",
@@ -191,17 +195,26 @@ const doLotteryMake = () => {
 const goLotteryMake = async () => {
   console.log("make lottery");
   await LotteryLoad();
-  const goLotteryMake = await LOTTERY.setGame(3, { value: BigInt(LOTTERYVAL * 1e16) });
+  getElements();
+  const goLotteryMake = await LOTTERY.makeLottery(total.value, maxTickets.value, BigInt(LOTTERYVAL * 1e16), winners.value);
 };
 
-const doBuyTicket = () => {
+const doBuyTicket = (e) => {
   console.log("scissors");
-  goBuyTicket();
+  goBuyTicket(e.target.name);
 };
-const goBuyTicket = async () => {
-  console.log("scissors");
+const goBuyTicket = async (i) => {
   await LotteryLoad();
-  const goLotteryMake = await LOTTERY.setGame(3, { value: BigInt(LOTTERYVAL * 1e16) });
+  console.log("scissors", lottoID[i], lottoPRICE[i], lottoAMOUNT[i].value);
+  let amount = Number(lottoAMOUNT[i].value);
+  console.log(i, amount);
+  const goLotteryMake = await LOTTERY.buyTicket(Number(lottoID[i]), amount, { value: BigInt(amount * Number(lottoPRICE[i])) })
+    .then((res) => {
+      return res;
+    })
+    .catch((err) => {
+      console.error(err.message);
+    });
 };
 
 const setHistory = () => {
@@ -214,26 +227,25 @@ const getHistory = async () => {
   await LotteryLoad();
   await RPSLoad();
   await HiLoLoad();
-  const myTicketCount = await LOTTERY.myTickets(user).then((res) => {
+  const myTicketCount = await LOTTERY.l().then((res) => {
     return Number(res._hex);
   });
   const myHistory = [];
   let h = 0;
   const myTickets = [];
   for (let i = 0; i < myTicketCount; i++) {
-    let grab = await LOTTERY.myTicket(user, i);
+    let grab = await LOTTERY.lotterys(i);
     myTickets[i] = {
       id: Number(grab[0]._hex),
+      owner: grab[1],
       type: "lottery",
-      value: Number(grab[1]._hex),
-      owner: grab[2],
-      t0: Number(grab[3]._hex),
-      c0: Number(grab[4]._hex),
-      opponent: grab[5],
-      t1: Number(grab[6]._hex),
-      c1: Number(grab[7]._hex),
-      state: Number(grab[8]._hex),
-      result: Number(grab[9]._hex),
+      tickets: Number(grab[2]._hex),
+      max: Number(grab[3]._hex),
+      price: Number(grab[4]._hex),
+      winning: Number(grab[5]._hex),
+      timestamp: Number(grab[6]._hex),
+      sold: Number(grab[7]._hex),
+      status: Number(grab[8]._hex),
     };
     // myHistory[h] = myTickets[i];
     console.log(myTickets[i]);
@@ -288,6 +300,7 @@ const getHistory = async () => {
   }
   // console.log(myHistory);
   writeHistory(myHistory);
+  writeLottery(myTickets);
 };
 
 const writeHistory = (his) => {
@@ -302,8 +315,35 @@ const writeHistory = (his) => {
           <div id="ltotal">Game Type : ${his[i].type}</div>
           <div id="lmax">Owner : ${his[i].owner.slice(0, 5)}...${his[i].owner.slice(38, 42)} </div>
           <div id="lwin">Status : ${his[i].state}</div>
-          <div id="lwin">Ended : ${his[i].t1 == 0 ? "NY" : his[i].t1}</div>
+          <div id="lwin">Ended : ${his[i].t1 == 0 ? "Pending" : "Finished @" + his[i].t1}</div>
         </div>`;
+  }
+};
+
+const writeLottery = (his) => {
+  console.log(his);
+  let len = his.length;
+  lotteryList.innerHTML = "<h2 style='grid-column:1/-1;'>Lotteries </h2>";
+  for (let i = 0; i < len; i++) {
+    lotteryList.innerHTML += `<div class="lotto">
+          <div id="lottoID_${i}" name="${i}"><b>${his[i].type}::${his[i].id}/${his[i].timestamp}</b></div>
+          <div id="lottoPRICE_${i}" name="${his[i].price}">Price : ${(his[i].price / 1e18).toFixed(2)}</div>
+          <div id="lottoTotal_${i}">Total Tickets : ${his[i].tickets}</div>
+          <div id="lottoMAX_${i}">Max Tickets/User : ${his[i].max}</div>
+          <div id="lottoWIN_${i}">Winning Tickets : ${his[i].winning}</div>
+          <div id="lottoWIN_${i}">Lottery State : ${his[i].status > 0 ? his[i].status + " Tickets Left" : "Ticket #" + his[i].result + " won"}</div>
+          <div><input id="lottoAMOUNT_${i}" type="number" value="1" min="1" max="${his[i].max}" style="width:120px;" /></div>
+          <button id="lottoBUY_${i}"  name="${i}">Buy Tickets</button>
+        </div>`;
+    lottoID[i] = his[i].id;
+    lottoPRICE[i] = his[i].price;
+  }
+
+  for (let i = 0; i < len; i++) {
+    lottoAMOUNT[i] = document.getElementById(`lottoAMOUNT_${i}`);
+    lottoBUY[i] = document.getElementById(`lottoBUY_${i}`);
+    // console.log(lottoID[i]);
+    lottoBUY[i].addEventListener("click", doBuyTicket);
   }
 };
 
@@ -397,6 +437,13 @@ let HILOVAL = 0;
 const getElements = () => {
   hi = document.getElementById("hi");
   lo = document.getElementById("lo");
+  r = document.getElementById("r");
+  p = document.getElementById("p");
+  s = document.getElementById("s");
+  total = document.getElementById("total");
+  maxTickets = document.getElementById("maxTickets");
+  winners = document.getElementById("winners");
+  make = document.getElementById("make");
   one = document.getElementById("one");
   two = document.getElementById("two");
   four = document.getElementById("four");
@@ -406,6 +453,7 @@ const getElements = () => {
   fourty = document.getElementById("fourt");
   eighty = document.getElementById("eighty");
   history = document.getElementById("history");
+  lotteryList = document.getElementById("lotteryList");
   setHistory();
 };
 
@@ -429,9 +477,6 @@ let RPSVAL = 0;
 const openService = () => {
   toggle();
   stage.innerHTML = document.getElementById("serviceTemp").innerHTML;
-  r = document.getElementById("r");
-  p = document.getElementById("p");
-  s = document.getElementById("s");
   getElements();
   r.addEventListener("click", doRock);
   p.addEventListener("click", doPaper);
@@ -449,6 +494,17 @@ let LOTTERYVAL = 0;
 const openTeam = () => {
   toggle();
   stage.innerHTML = document.getElementById("teamTemp").innerHTML;
+  getElements();
+  // setHistory();
+  make.addEventListener("click", doLotteryMake);
+  one.addEventListener("click", setVal);
+  two.addEventListener("click", setVal);
+  four.addEventListener("click", setVal);
+  eight.addEventListener("click", setVal);
+  ten.addEventListener("click", setVal);
+  twen.addEventListener("click", setVal);
+  fourty.addEventListener("click", setVal);
+  eighty.addEventListener("click", setVal);
 };
 const setVal = (e) => {
   if (e.target.parentElement.id == "one") {
@@ -496,14 +552,14 @@ const setVal = (e) => {
 };
 const chipGlow = () => {
   getElements();
-  one.style.background = HILOVAL == 1 ? "orange" : "white";
-  two.style.background = HILOVAL == 2 ? "orange" : "white";
-  four.style.background = HILOVAL == 4 ? "orange" : "white";
-  eight.style.background = HILOVAL == 8 ? "orange" : "white";
-  ten.style.background = HILOVAL == 10 ? "orange" : "white";
-  twen.style.background = HILOVAL == 20 ? "orange" : "white";
-  fourty.style.background = HILOVAL == 40 ? "orange" : "white";
-  eighty.style.background = HILOVAL == 80 ? "orange" : "white";
+  one.style.background = (HILOVAL || RPSVAL || LOTTERYVAL) == 1 ? "orange" : "white";
+  two.style.background = (HILOVAL || RPSVAL || LOTTERYVAL) == 2 ? "orange" : "white";
+  four.style.background = (HILOVAL || RPSVAL || LOTTERYVAL) == 4 ? "orange" : "white";
+  eight.style.background = (HILOVAL || RPSVAL || LOTTERYVAL) == 8 ? "orange" : "white";
+  ten.style.background = (HILOVAL || RPSVAL || LOTTERYVAL) == 10 ? "orange" : "white";
+  twen.style.background = (HILOVAL || RPSVAL || LOTTERYVAL) == 20 ? "orange" : "white";
+  fourty.style.background = (HILOVAL || RPSVAL || LOTTERYVAL) == 40 ? "orange" : "white";
+  eighty.style.background = (HILOVAL || RPSVAL || LOTTERYVAL) == 80 ? "orange" : "white";
 };
 const openImprint = () => {
   toggle();

@@ -141,15 +141,15 @@
     "absolutePath": "project:/contracts/iii6utils/Misc/Errors/iii6Errors.sol",
     "exportedSymbols": {
       "iii6Errors": [
-        15285
+        15327
       ]
     },
-    "id": 15286,
+    "id": 15328,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 15234,
+        "id": 15276,
         "literals": [
           "solidity",
           "^",
@@ -166,9 +166,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 15285,
+        "id": 15327,
         "linearizedBaseContracts": [
-          15285
+          15327
         ],
         "name": "iii6Errors",
         "nameLocation": "8672:10:61",
@@ -176,12 +176,12 @@
         "nodes": [
           {
             "errorSelector": "e08ca6b0",
-            "id": 15236,
+            "id": 15278,
             "name": "Already_Listed",
             "nameLocation": "8695:14:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15235,
+              "id": 15277,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8709:2:61"
@@ -190,12 +190,12 @@
           },
           {
             "errorSelector": "ea5db9c5",
-            "id": 15238,
+            "id": 15280,
             "name": "All_Slots_Taken",
             "nameLocation": "8723:15:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15237,
+              "id": 15279,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8738:2:61"
@@ -204,12 +204,12 @@
           },
           {
             "errorSelector": "efc60c14",
-            "id": 15240,
+            "id": 15282,
             "name": "Insufficient_Balance",
             "nameLocation": "8752:20:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15239,
+              "id": 15281,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8772:2:61"
@@ -218,12 +218,12 @@
           },
           {
             "errorSelector": "d578678f",
-            "id": 15242,
+            "id": 15284,
             "name": "Insufficient_MLQ",
             "nameLocation": "8786:16:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15241,
+              "id": 15283,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8802:2:61"
@@ -232,12 +232,12 @@
           },
           {
             "errorSelector": "9bb42d4b",
-            "id": 15244,
+            "id": 15286,
             "name": "Insufficient_Funds",
             "nameLocation": "8816:18:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15243,
+              "id": 15285,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8834:2:61"
@@ -246,12 +246,12 @@
           },
           {
             "errorSelector": "99956c46",
-            "id": 15246,
+            "id": 15288,
             "name": "Insufficient_Amount",
             "nameLocation": "8848:19:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15245,
+              "id": 15287,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8867:2:61"
@@ -260,12 +260,12 @@
           },
           {
             "errorSelector": "064a6c41",
-            "id": 15248,
+            "id": 15290,
             "name": "Invalid_Amount",
             "nameLocation": "8881:14:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15247,
+              "id": 15289,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8895:2:61"
@@ -274,12 +274,12 @@
           },
           {
             "errorSelector": "3a5bc321",
-            "id": 15250,
+            "id": 15292,
             "name": "Min_Requirements_Not_Met",
             "nameLocation": "8909:24:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15249,
+              "id": 15291,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8933:2:61"
@@ -288,12 +288,12 @@
           },
           {
             "errorSelector": "50c9ab5c",
-            "id": 15252,
+            "id": 15294,
             "name": "Mint_Is_Not_Yet_Live",
             "nameLocation": "8947:20:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15251,
+              "id": 15293,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8967:2:61"
@@ -302,12 +302,12 @@
           },
           {
             "errorSelector": "4c17e010",
-            "id": 15254,
+            "id": 15296,
             "name": "Mint_In_Progress",
             "nameLocation": "8981:16:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15253,
+              "id": 15295,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "8997:2:61"
@@ -316,12 +316,12 @@
           },
           {
             "errorSelector": "673ed843",
-            "id": 15256,
+            "id": 15298,
             "name": "Max_Tokens_Minted",
             "nameLocation": "9011:17:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15255,
+              "id": 15297,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9028:2:61"
@@ -330,12 +330,12 @@
           },
           {
             "errorSelector": "167bf703",
-            "id": 15258,
+            "id": 15300,
             "name": "Greenlist_Expired",
             "nameLocation": "9042:17:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15257,
+              "id": 15299,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9059:2:61"
@@ -344,12 +344,12 @@
           },
           {
             "errorSelector": "1e6f0b54",
-            "id": 15260,
+            "id": 15302,
             "name": "Insufficient_Supply",
             "nameLocation": "9073:19:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15259,
+              "id": 15301,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9092:2:61"
@@ -358,12 +358,12 @@
           },
           {
             "errorSelector": "684cf537",
-            "id": 15262,
+            "id": 15304,
             "name": "Not_Greenlisted",
             "nameLocation": "9106:15:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15261,
+              "id": 15303,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9121:2:61"
@@ -372,12 +372,12 @@
           },
           {
             "errorSelector": "ada869a8",
-            "id": 15264,
+            "id": 15306,
             "name": "Sold_Out",
             "nameLocation": "9135:8:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15263,
+              "id": 15305,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9143:2:61"
@@ -386,12 +386,12 @@
           },
           {
             "errorSelector": "018a9872",
-            "id": 15266,
+            "id": 15308,
             "name": "Event_Has_Ended",
             "nameLocation": "9157:15:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15265,
+              "id": 15307,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9172:2:61"
@@ -400,12 +400,12 @@
           },
           {
             "errorSelector": "82b42900",
-            "id": 15268,
+            "id": 15310,
             "name": "Unauthorized",
             "nameLocation": "9186:12:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15267,
+              "id": 15309,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9198:2:61"
@@ -414,12 +414,12 @@
           },
           {
             "errorSelector": "7cd5facc",
-            "id": 15270,
+            "id": 15312,
             "name": "You_Need_To_Wait",
             "nameLocation": "9212:16:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15269,
+              "id": 15311,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9228:2:61"
@@ -428,12 +428,12 @@
           },
           {
             "errorSelector": "905340b2",
-            "id": 15272,
+            "id": 15314,
             "name": "You_Are_Not_The_Holder",
             "nameLocation": "9242:22:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15271,
+              "id": 15313,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9264:2:61"
@@ -442,12 +442,12 @@
           },
           {
             "errorSelector": "eb688586",
-            "id": 15274,
+            "id": 15316,
             "name": "Array_Length_Mismatch",
             "nameLocation": "9278:21:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15273,
+              "id": 15315,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9299:2:61"
@@ -456,12 +456,12 @@
           },
           {
             "errorSelector": "c1a21f4e",
-            "id": 15276,
+            "id": 15318,
             "name": "Invalid_Response",
             "nameLocation": "9313:16:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15275,
+              "id": 15317,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9329:2:61"
@@ -470,12 +470,12 @@
           },
           {
             "errorSelector": "febe7e19",
-            "id": 15278,
+            "id": 15320,
             "name": "Not_Burnable",
             "nameLocation": "9343:12:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15277,
+              "id": 15319,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9355:2:61"
@@ -484,12 +484,12 @@
           },
           {
             "errorSelector": "da61c0d8",
-            "id": 15280,
+            "id": 15322,
             "name": "Not_Pausable",
             "nameLocation": "9369:12:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15279,
+              "id": 15321,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9381:2:61"
@@ -498,12 +498,12 @@
           },
           {
             "errorSelector": "cece67ff",
-            "id": 15282,
+            "id": 15324,
             "name": "Not_Friends",
             "nameLocation": "9395:11:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15281,
+              "id": 15323,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9406:2:61"
@@ -512,12 +512,12 @@
           },
           {
             "errorSelector": "032ad0c1",
-            "id": 15284,
+            "id": 15326,
             "name": "Not_Friends_Rev",
             "nameLocation": "9420:15:61",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 15283,
+              "id": 15325,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "9435:2:61"
@@ -525,34 +525,34 @@
             "src": "9414:24:61"
           }
         ],
-        "scope": 15286,
+        "scope": 15328,
         "src": "8654:786:61",
         "usedErrors": [
-          15236,
-          15238,
-          15240,
-          15242,
-          15244,
-          15246,
-          15248,
-          15250,
-          15252,
-          15254,
-          15256,
-          15258,
-          15260,
-          15262,
-          15264,
-          15266,
-          15268,
-          15270,
-          15272,
-          15274,
-          15276,
           15278,
           15280,
           15282,
-          15284
+          15284,
+          15286,
+          15288,
+          15290,
+          15292,
+          15294,
+          15296,
+          15298,
+          15300,
+          15302,
+          15304,
+          15306,
+          15308,
+          15310,
+          15312,
+          15314,
+          15316,
+          15318,
+          15320,
+          15322,
+          15324,
+          15326
         ]
       }
     ],
@@ -564,7 +564,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2023-04-03T15:52:02.874Z",
+  "updatedAt": "2023-04-04T04:07:08.727Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

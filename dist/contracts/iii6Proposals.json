@@ -15,15 +15,15 @@
     "absolutePath": "project:/contracts/iii6Utils/Misc/iii6Proposals.sol",
     "exportedSymbols": {
       "iii6Proposals": [
-        10506
+        10548
       ]
     },
-    "id": 10507,
+    "id": 10549,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 10481,
+        "id": 10523,
         "literals": [
           "solidity",
           "^",
@@ -40,9 +40,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 10506,
+        "id": 10548,
         "linearizedBaseContracts": [
-          10506
+          10548
         ],
         "name": "iii6Proposals",
         "nameLocation": "8663:13:49",
@@ -50,24 +50,24 @@
         "nodes": [
           {
             "canonicalName": "iii6Proposals.Voting",
-            "id": 10485,
+            "id": 10527,
             "members": [
               {
-                "id": 10482,
+                "id": 10524,
                 "name": "Active",
                 "nameLocation": "10420:6:49",
                 "nodeType": "EnumValue",
                 "src": "10420:6:49"
               },
               {
-                "id": 10483,
+                "id": 10525,
                 "name": "Canceled",
                 "nameLocation": "10436:8:49",
                 "nodeType": "EnumValue",
                 "src": "10436:8:49"
               },
               {
-                "id": 10484,
+                "id": 10526,
                 "name": "Approved",
                 "nameLocation": "10454:8:49",
                 "nodeType": "EnumValue",
@@ -81,16 +81,16 @@
           },
           {
             "canonicalName": "iii6Proposals.Proposal",
-            "id": 10505,
+            "id": 10547,
             "members": [
               {
                 "constant": false,
-                "id": 10487,
+                "id": 10529,
                 "mutability": "mutable",
                 "name": "rid",
                 "nameLocation": "10508:3:49",
                 "nodeType": "VariableDeclaration",
-                "scope": 10505,
+                "scope": 10547,
                 "src": "10500:11:49",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -99,7 +99,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 10486,
+                  "id": 10528,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "10500:7:49",
@@ -112,12 +112,12 @@
               },
               {
                 "constant": false,
-                "id": 10489,
+                "id": 10531,
                 "mutability": "mutable",
                 "name": "voteCount",
                 "nameLocation": "10529:9:49",
                 "nodeType": "VariableDeclaration",
-                "scope": 10505,
+                "scope": 10547,
                 "src": "10521:17:49",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -126,7 +126,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 10488,
+                  "id": 10530,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "10521:7:49",
@@ -139,12 +139,12 @@
               },
               {
                 "constant": false,
-                "id": 10492,
+                "id": 10534,
                 "mutability": "mutable",
                 "name": "members",
                 "nameLocation": "10558:7:49",
                 "nodeType": "VariableDeclaration",
-                "scope": 10505,
+                "scope": 10547,
                 "src": "10548:17:49",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -154,7 +154,7 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 10490,
+                    "id": 10532,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "10548:7:49",
@@ -164,7 +164,7 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 10491,
+                  "id": 10533,
                   "nodeType": "ArrayTypeName",
                   "src": "10548:9:49",
                   "typeDescriptions": {
@@ -176,12 +176,12 @@
               },
               {
                 "constant": false,
-                "id": 10495,
+                "id": 10537,
                 "mutability": "mutable",
                 "name": "shares",
                 "nameLocation": "10585:6:49",
                 "nodeType": "VariableDeclaration",
-                "scope": 10505,
+                "scope": 10547,
                 "src": "10575:16:49",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -191,7 +191,7 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 10493,
+                    "id": 10535,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "10575:7:49",
@@ -200,7 +200,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 10494,
+                  "id": 10536,
                   "nodeType": "ArrayTypeName",
                   "src": "10575:9:49",
                   "typeDescriptions": {
@@ -212,12 +212,12 @@
               },
               {
                 "constant": false,
-                "id": 10498,
+                "id": 10540,
                 "mutability": "mutable",
                 "name": "difs",
                 "nameLocation": "10610:4:49",
                 "nodeType": "VariableDeclaration",
-                "scope": 10505,
+                "scope": 10547,
                 "src": "10601:13:49",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -227,7 +227,7 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 10496,
+                    "id": 10538,
                     "name": "int256",
                     "nodeType": "ElementaryTypeName",
                     "src": "10601:6:49",
@@ -236,7 +236,7 @@
                       "typeString": "int256"
                     }
                   },
-                  "id": 10497,
+                  "id": 10539,
                   "nodeType": "ArrayTypeName",
                   "src": "10601:8:49",
                   "typeDescriptions": {
@@ -248,12 +248,12 @@
               },
               {
                 "constant": false,
-                "id": 10501,
+                "id": 10543,
                 "mutability": "mutable",
                 "name": "votes",
                 "nameLocation": "10631:5:49",
                 "nodeType": "VariableDeclaration",
-                "scope": 10505,
+                "scope": 10547,
                 "src": "10624:12:49",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -263,7 +263,7 @@
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 10499,
+                    "id": 10541,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "10624:4:49",
@@ -272,7 +272,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 10500,
+                  "id": 10542,
                   "nodeType": "ArrayTypeName",
                   "src": "10624:6:49",
                   "typeDescriptions": {
@@ -284,36 +284,36 @@
               },
               {
                 "constant": false,
-                "id": 10504,
+                "id": 10546,
                 "mutability": "mutable",
                 "name": "state",
                 "nameLocation": "10653:5:49",
                 "nodeType": "VariableDeclaration",
-                "scope": 10505,
+                "scope": 10547,
                 "src": "10646:12:49",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_enum$_Voting_$10485",
+                  "typeIdentifier": "t_enum$_Voting_$10527",
                   "typeString": "enum iii6Proposals.Voting"
                 },
                 "typeName": {
-                  "id": 10503,
+                  "id": 10545,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 10502,
+                    "id": 10544,
                     "name": "Voting",
                     "nameLocations": [
                       "10646:6:49"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 10485,
+                    "referencedDeclaration": 10527,
                     "src": "10646:6:49"
                   },
-                  "referencedDeclaration": 10485,
+                  "referencedDeclaration": 10527,
                   "src": "10646:6:49",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Voting_$10485",
+                    "typeIdentifier": "t_enum$_Voting_$10527",
                     "typeString": "enum iii6Proposals.Voting"
                   }
                 },
@@ -323,12 +323,12 @@
             "name": "Proposal",
             "nameLocation": "10481:8:49",
             "nodeType": "StructDefinition",
-            "scope": 10506,
+            "scope": 10548,
             "src": "10474:191:49",
             "visibility": "public"
           }
         ],
-        "scope": 10507,
+        "scope": 10549,
         "src": "8654:2013:49",
         "usedErrors": []
       }
@@ -341,7 +341,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2023-04-03T15:52:02.876Z",
+  "updatedAt": "2023-04-04T04:07:08.734Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

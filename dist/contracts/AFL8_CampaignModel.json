@@ -8107,7 +8107,7 @@
                 }
               ]
             },
-            "name": "validator_assert_t_enum$_CampaignType_$15378",
+            "name": "validator_assert_t_enum$_CampaignType_$15420",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8150,7 +8150,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "validator_assert_t_enum$_CampaignType_$15378",
+                      "name": "validator_assert_t_enum$_CampaignType_$15420",
                       "nodeType": "YulIdentifier",
                       "src": "6304:44:77"
                     },
@@ -8162,7 +8162,7 @@
                 }
               ]
             },
-            "name": "cleanup_t_enum$_CampaignType_$15378",
+            "name": "cleanup_t_enum$_CampaignType_$15420",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8199,7 +8199,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "cleanup_t_enum$_CampaignType_$15378",
+                      "name": "cleanup_t_enum$_CampaignType_$15420",
                       "nodeType": "YulIdentifier",
                       "src": "6466:35:77"
                     },
@@ -8216,7 +8216,7 @@
                 }
               ]
             },
-            "name": "convert_t_enum$_CampaignType_$15378_to_t_uint8",
+            "name": "convert_t_enum$_CampaignType_$15420_to_t_uint8",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8258,7 +8258,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "convert_t_enum$_CampaignType_$15378_to_t_uint8",
+                          "name": "convert_t_enum$_CampaignType_$15420_to_t_uint8",
                           "nodeType": "YulIdentifier",
                           "src": "6623:46:77"
                         },
@@ -8279,7 +8279,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_enum$_CampaignType_$15378_to_t_uint8_fromStack",
+            "name": "abi_encode_t_enum$_CampaignType_$15420_to_t_uint8_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8362,7 +8362,7 @@
                 }
               ]
             },
-            "name": "validator_assert_t_enum$_Status_$15359",
+            "name": "validator_assert_t_enum$_Status_$15401",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8405,7 +8405,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "validator_assert_t_enum$_Status_$15359",
+                      "name": "validator_assert_t_enum$_Status_$15401",
                       "nodeType": "YulIdentifier",
                       "src": "6896:38:77"
                     },
@@ -8417,7 +8417,7 @@
                 }
               ]
             },
-            "name": "cleanup_t_enum$_Status_$15359",
+            "name": "cleanup_t_enum$_Status_$15401",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8454,7 +8454,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "cleanup_t_enum$_Status_$15359",
+                      "name": "cleanup_t_enum$_Status_$15401",
                       "nodeType": "YulIdentifier",
                       "src": "7046:29:77"
                     },
@@ -8471,7 +8471,7 @@
                 }
               ]
             },
-            "name": "convert_t_enum$_Status_$15359_to_t_uint8",
+            "name": "convert_t_enum$_Status_$15401_to_t_uint8",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8513,7 +8513,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "convert_t_enum$_Status_$15359_to_t_uint8",
+                          "name": "convert_t_enum$_Status_$15401_to_t_uint8",
                           "nodeType": "YulIdentifier",
                           "src": "7191:40:77"
                         },
@@ -8534,7 +8534,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_enum$_Status_$15359_to_t_uint8_fromStack",
+            "name": "abi_encode_t_enum$_Status_$15401_to_t_uint8_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -8973,7 +8973,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_enum$_CampaignType_$15378_to_t_uint8_fromStack",
+                      "name": "abi_encode_t_enum$_CampaignType_$15420_to_t_uint8_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "8309:59:77"
                     },
@@ -9016,7 +9016,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_enum$_Status_$15359_to_t_uint8_fromStack",
+                      "name": "abi_encode_t_enum$_Status_$15401_to_t_uint8_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "8408:53:77"
                     },
@@ -9028,7 +9028,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_uint256_t_address_t_uint256_t_uint256_t_uint256_t_uint256_t_bytes_memory_ptr_t_enum$_CampaignType_$15378_t_enum$_Status_$15359__to_t_uint256_t_address_t_uint256_t_uint256_t_uint256_t_uint256_t_bytes_memory_ptr_t_uint8_t_uint8__fromStack_reversed",
+            "name": "abi_encode_tuple_t_uint256_t_address_t_uint256_t_uint256_t_uint256_t_uint256_t_bytes_memory_ptr_t_enum$_CampaignType_$15420_t_enum$_Status_$15401__to_t_uint256_t_address_t_uint256_t_uint256_t_uint256_t_uint256_t_bytes_memory_ptr_t_uint8_t_uint8__fromStack_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -9309,7 +9309,7 @@
                 }
               ]
             },
-            "name": "convert_t_contract$_iii6CoinModel_$13357_to_t_address_payable",
+            "name": "convert_t_contract$_iii6CoinModel_$13399_to_t_address_payable",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -9351,7 +9351,7 @@
                           }
                         ],
                         "functionName": {
-                          "name": "convert_t_contract$_iii6CoinModel_$13357_to_t_address_payable",
+                          "name": "convert_t_contract$_iii6CoinModel_$13399_to_t_address_payable",
                           "nodeType": "YulIdentifier",
                           "src": "9147:61:77"
                         },
@@ -9372,7 +9372,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_contract$_iii6CoinModel_$13357_to_t_address_payable_fromStack",
+            "name": "abi_encode_t_contract$_iii6CoinModel_$13399_to_t_address_payable_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -9462,7 +9462,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_contract$_iii6CoinModel_$13357_to_t_address_payable_fromStack",
+                      "name": "abi_encode_t_contract$_iii6CoinModel_$13399_to_t_address_payable_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "9403:74:77"
                     },
@@ -9474,7 +9474,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_contract$_iii6CoinModel_$13357__to_t_address_payable__fromStack_reversed",
+            "name": "abi_encode_tuple_t_contract$_iii6CoinModel_$13399__to_t_address_payable__fromStack_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -24954,7 +24954,7 @@
           }
         ]
       },
-      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_bytes4(value) -> cleaned {\n        cleaned := and(value, 0xffffffff00000000000000000000000000000000000000000000000000000000)\n    }\n\n    function validator_revert_t_bytes4(value) {\n        if iszero(eq(value, cleanup_t_bytes4(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_bytes4(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_bytes4(value)\n    }\n\n    function abi_decode_tuple_t_bytes4(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bytes4(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_bool(value) -> cleaned {\n        cleaned := iszero(iszero(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool_fromStack(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    function abi_encode_tuple_t_bool__to_t_bool__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_bool_to_t_bool_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr__to_t_string_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_addresst_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_bytes_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_bytes_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_bytes_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_bytes_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function panic_error_0x21() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x21)\n        revert(0, 0x24)\n    }\n\n    function validator_assert_t_enum$_CampaignType_$15378(value) {\n        if iszero(lt(value, 5)) { panic_error_0x21() }\n    }\n\n    function cleanup_t_enum$_CampaignType_$15378(value) -> cleaned {\n        cleaned := value validator_assert_t_enum$_CampaignType_$15378(value)\n    }\n\n    function convert_t_enum$_CampaignType_$15378_to_t_uint8(value) -> converted {\n        converted := cleanup_t_enum$_CampaignType_$15378(value)\n    }\n\n    function abi_encode_t_enum$_CampaignType_$15378_to_t_uint8_fromStack(value, pos) {\n        mstore(pos, convert_t_enum$_CampaignType_$15378_to_t_uint8(value))\n    }\n\n    function validator_assert_t_enum$_Status_$15359(value) {\n        if iszero(lt(value, 4)) { panic_error_0x21() }\n    }\n\n    function cleanup_t_enum$_Status_$15359(value) -> cleaned {\n        cleaned := value validator_assert_t_enum$_Status_$15359(value)\n    }\n\n    function convert_t_enum$_Status_$15359_to_t_uint8(value) -> converted {\n        converted := cleanup_t_enum$_Status_$15359(value)\n    }\n\n    function abi_encode_t_enum$_Status_$15359_to_t_uint8_fromStack(value, pos) {\n        mstore(pos, convert_t_enum$_Status_$15359_to_t_uint8(value))\n    }\n\n    function abi_encode_tuple_t_uint256_t_address_t_uint256_t_uint256_t_uint256_t_uint256_t_bytes_memory_ptr_t_enum$_CampaignType_$15378_t_enum$_Status_$15359__to_t_uint256_t_address_t_uint256_t_uint256_t_uint256_t_uint256_t_bytes_memory_ptr_t_uint8_t_uint8__fromStack_reversed(headStart , value8, value7, value6, value5, value4, value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 288)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_address_to_t_address_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value3,  add(headStart, 96))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value4,  add(headStart, 128))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value5,  add(headStart, 160))\n\n        mstore(add(headStart, 192), sub(tail, headStart))\n        tail := abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value6,  tail)\n\n        abi_encode_t_enum$_CampaignType_$15378_to_t_uint8_fromStack(value7,  add(headStart, 224))\n\n        abi_encode_t_enum$_Status_$15359_to_t_uint8_fromStack(value8,  add(headStart, 256))\n\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint160_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(identity(cleanup_t_uint160(value)))\n    }\n\n    function convert_t_uint160_to_t_address_payable(value) -> converted {\n        converted := convert_t_uint160_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_iii6CoinModel_$13357_to_t_address_payable(value) -> converted {\n        converted := convert_t_uint160_to_t_address_payable(value)\n    }\n\n    function abi_encode_t_contract$_iii6CoinModel_$13357_to_t_address_payable_fromStack(value, pos) {\n        mstore(pos, convert_t_contract$_iii6CoinModel_$13357_to_t_address_payable(value))\n    }\n\n    function abi_encode_tuple_t_contract$_iii6CoinModel_$13357__to_t_address_payable__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_iii6CoinModel_$13357_to_t_address_payable_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_decode_tuple_t_addresst_addresst_uint256(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function validator_revert_t_bool(value) {\n        if iszero(eq(value, cleanup_t_bool(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_bool(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_bool(value)\n    }\n\n    function abi_decode_tuple_t_uint256t_bool(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_bool(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_uint256t_uint256t_uint256t_string_memory_ptrt_uint256(headStart, dataEnd) -> value0, value1, value2, value3, value4 {\n        if slt(sub(dataEnd, headStart), 160) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 96))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value3 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 128\n\n            value4 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_tuple_t_bytes_memory_ptr__to_t_bytes_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function abi_decode_tuple_t_addresst_bool(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_bool(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_allocation_size_t_bytes_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function abi_decode_available_length_t_bytes_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_bytes_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // bytes\n    function abi_decode_t_bytes_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_bytes_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_addresst_addresst_uint256t_bytes_memory_ptr(headStart, dataEnd) -> value0, value1, value2, value3 {\n        if slt(sub(dataEnd, headStart), 128) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 96))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value3 := abi_decode_t_bytes_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_addresst_address(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function store_literal_in_memory_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approval to current owne\")\n\n        mstore(add(memPtr, 32), \"r\")\n\n    }\n\n    function abi_encode_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 33)\n        store_literal_in_memory_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approve caller is not to\")\n\n        mstore(add(memPtr, 32), \"ken owner or approved for all\")\n\n    }\n\n    function abi_encode_t_stringliteral_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 61)\n        store_literal_in_memory_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: caller is not token owne\")\n\n        mstore(add(memPtr, 32), \"r or approved\")\n\n    }\n\n    function abi_encode_t_stringliteral_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 45)\n        store_literal_in_memory_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x32() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x32)\n        revert(0, 0x24)\n    }\n\n    function store_literal_in_memory_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: invalid token ID\")\n\n    }\n\n    function abi_encode_t_stringliteral_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 24)\n        store_literal_in_memory_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: address zero is not a va\")\n\n        mstore(add(memPtr, 32), \"lid owner\")\n\n    }\n\n    function abi_encode_t_stringliteral_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 41)\n        store_literal_in_memory_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n    function abi_decode_t_uint256_fromMemory(offset, end) -> value {\n        value := mload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256_fromMemory(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256_fromMemory(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function store_literal_in_memory_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81(memPtr) {\n\n        mstore(add(memPtr, 0), \":: insufficient funds ::\")\n\n    }\n\n    function abi_encode_t_stringliteral_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 24)\n        store_literal_in_memory_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677(memPtr) {\n\n        mstore(add(memPtr, 0), \":: not enough budget ::\")\n\n    }\n\n    function abi_encode_t_stringliteral_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 23)\n        store_literal_in_memory_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_address_t_address_t_uint256__to_t_address_t_address_t_uint256__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_address_to_t_address_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n    }\n\n    function abi_decode_t_bool_fromMemory(offset, end) -> value {\n        value := mload(offset)\n        validator_revert_t_bool(value)\n    }\n\n    function abi_decode_tuple_t_bool_fromMemory(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bool_fromMemory(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function checked_mul_t_uint256(x, y) -> product {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        let product_raw := mul(x, y)\n        product := cleanup_t_uint256(product_raw)\n\n        // overflow, if x != 0 and y != product/x\n        if iszero(\n            or(\n                iszero(x),\n                eq(y, div(product, x))\n            )\n        ) { panic_error_0x11() }\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_nonPadded_inplace_fromStack(pos, length) -> updated_pos {\n        updated_pos := pos\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_nonPadded_inplace_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, length)\n    }\n\n    function abi_encode_tuple_packed_t_string_memory_ptr_t_string_memory_ptr__to_t_string_memory_ptr_t_string_memory_ptr__nonPadded_inplace_fromStack_reversed(pos , value1, value0) -> end {\n\n        pos := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value0,  pos)\n\n        pos := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value1,  pos)\n\n        end := pos\n    }\n\n    function store_literal_in_memory_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer from incorrect \")\n\n        mstore(add(memPtr, 32), \"owner\")\n\n    }\n\n    function abi_encode_t_stringliteral_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 37)\n        store_literal_in_memory_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer to the zero add\")\n\n        mstore(add(memPtr, 32), \"ress\")\n\n    }\n\n    function abi_encode_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 36)\n        store_literal_in_memory_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function array_dataslot_t_bytes_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shl(bits, value)\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_bytes_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_bytes_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shr(bits, value)\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_bytes_memory_ptr_to_t_bytes_storage(slot, src) {\n\n        let newLen := array_length_t_bytes_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_bytes_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_bytes_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function store_literal_in_memory_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32(memPtr) {\n\n        mstore(add(memPtr, 0), \":: price too low ::\")\n\n    }\n\n    function abi_encode_t_stringliteral_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 19)\n        store_literal_in_memory_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x12() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x12)\n        revert(0, 0x24)\n    }\n\n    function checked_div_t_uint256(x, y) -> r {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        if iszero(y) { panic_error_0x12() }\n\n        r := div(x, y)\n    }\n\n    function array_length_t_bytes_storage(value) -> length {\n\n        length := sload(value)\n\n        length := extract_byte_array_length(length)\n\n    }\n\n    function copy_byte_array_to_storage_from_t_bytes_storage_to_t_bytes_storage(slot, src) {\n        if eq(slot, src) { leave }\n\n        let newLen := array_length_t_bytes_storage(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_bytes_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n            src := array_dataslot_t_bytes_storage(src)\n            let dstPtr := array_dataslot_t_bytes_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, sload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 1)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := sload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := sload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function store_literal_in_memory_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approve to caller\")\n\n    }\n\n    function abi_encode_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 25)\n        store_literal_in_memory_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer to non ERC721Re\")\n\n        mstore(add(memPtr, 32), \"ceiver implementer\")\n\n    }\n\n    function abi_encode_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 50)\n        store_literal_in_memory_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: mint to the zero address\")\n\n    }\n\n    function abi_encode_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 32)\n        store_literal_in_memory_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: token already minted\")\n\n    }\n\n    function abi_encode_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 28)\n        store_literal_in_memory_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_address_t_address_t_uint256_t_bytes_memory_ptr__to_t_address_t_address_t_uint256_t_bytes_memory_ptr__fromStack_reversed(headStart , value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 128)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_address_to_t_address_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n        mstore(add(headStart, 96), sub(tail, headStart))\n        tail := abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value3,  tail)\n\n    }\n\n    function abi_decode_t_bytes4_fromMemory(offset, end) -> value {\n        value := mload(offset)\n        validator_revert_t_bytes4(value)\n    }\n\n    function abi_decode_tuple_t_bytes4_fromMemory(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bytes4_fromMemory(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n}\n",
+      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_bytes4(value) -> cleaned {\n        cleaned := and(value, 0xffffffff00000000000000000000000000000000000000000000000000000000)\n    }\n\n    function validator_revert_t_bytes4(value) {\n        if iszero(eq(value, cleanup_t_bytes4(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_bytes4(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_bytes4(value)\n    }\n\n    function abi_decode_tuple_t_bytes4(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bytes4(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_bool(value) -> cleaned {\n        cleaned := iszero(iszero(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool_fromStack(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    function abi_encode_tuple_t_bool__to_t_bool__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_bool_to_t_bool_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr__to_t_string_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_addresst_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_bytes_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_bytes_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_bytes_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_bytes_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function panic_error_0x21() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x21)\n        revert(0, 0x24)\n    }\n\n    function validator_assert_t_enum$_CampaignType_$15420(value) {\n        if iszero(lt(value, 5)) { panic_error_0x21() }\n    }\n\n    function cleanup_t_enum$_CampaignType_$15420(value) -> cleaned {\n        cleaned := value validator_assert_t_enum$_CampaignType_$15420(value)\n    }\n\n    function convert_t_enum$_CampaignType_$15420_to_t_uint8(value) -> converted {\n        converted := cleanup_t_enum$_CampaignType_$15420(value)\n    }\n\n    function abi_encode_t_enum$_CampaignType_$15420_to_t_uint8_fromStack(value, pos) {\n        mstore(pos, convert_t_enum$_CampaignType_$15420_to_t_uint8(value))\n    }\n\n    function validator_assert_t_enum$_Status_$15401(value) {\n        if iszero(lt(value, 4)) { panic_error_0x21() }\n    }\n\n    function cleanup_t_enum$_Status_$15401(value) -> cleaned {\n        cleaned := value validator_assert_t_enum$_Status_$15401(value)\n    }\n\n    function convert_t_enum$_Status_$15401_to_t_uint8(value) -> converted {\n        converted := cleanup_t_enum$_Status_$15401(value)\n    }\n\n    function abi_encode_t_enum$_Status_$15401_to_t_uint8_fromStack(value, pos) {\n        mstore(pos, convert_t_enum$_Status_$15401_to_t_uint8(value))\n    }\n\n    function abi_encode_tuple_t_uint256_t_address_t_uint256_t_uint256_t_uint256_t_uint256_t_bytes_memory_ptr_t_enum$_CampaignType_$15420_t_enum$_Status_$15401__to_t_uint256_t_address_t_uint256_t_uint256_t_uint256_t_uint256_t_bytes_memory_ptr_t_uint8_t_uint8__fromStack_reversed(headStart , value8, value7, value6, value5, value4, value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 288)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_address_to_t_address_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value3,  add(headStart, 96))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value4,  add(headStart, 128))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value5,  add(headStart, 160))\n\n        mstore(add(headStart, 192), sub(tail, headStart))\n        tail := abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value6,  tail)\n\n        abi_encode_t_enum$_CampaignType_$15420_to_t_uint8_fromStack(value7,  add(headStart, 224))\n\n        abi_encode_t_enum$_Status_$15401_to_t_uint8_fromStack(value8,  add(headStart, 256))\n\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint160_to_t_uint160(value) -> converted {\n        converted := cleanup_t_uint160(identity(cleanup_t_uint160(value)))\n    }\n\n    function convert_t_uint160_to_t_address_payable(value) -> converted {\n        converted := convert_t_uint160_to_t_uint160(value)\n    }\n\n    function convert_t_contract$_iii6CoinModel_$13399_to_t_address_payable(value) -> converted {\n        converted := convert_t_uint160_to_t_address_payable(value)\n    }\n\n    function abi_encode_t_contract$_iii6CoinModel_$13399_to_t_address_payable_fromStack(value, pos) {\n        mstore(pos, convert_t_contract$_iii6CoinModel_$13399_to_t_address_payable(value))\n    }\n\n    function abi_encode_tuple_t_contract$_iii6CoinModel_$13399__to_t_address_payable__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_contract$_iii6CoinModel_$13399_to_t_address_payable_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_decode_tuple_t_addresst_addresst_uint256(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function validator_revert_t_bool(value) {\n        if iszero(eq(value, cleanup_t_bool(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_bool(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_bool(value)\n    }\n\n    function abi_decode_tuple_t_uint256t_bool(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_bool(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_uint256t_uint256t_uint256t_string_memory_ptrt_uint256(headStart, dataEnd) -> value0, value1, value2, value3, value4 {\n        if slt(sub(dataEnd, headStart), 160) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 96))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value3 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 128\n\n            value4 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_tuple_t_bytes_memory_ptr__to_t_bytes_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function abi_decode_tuple_t_addresst_bool(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_bool(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_allocation_size_t_bytes_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function abi_decode_available_length_t_bytes_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_bytes_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // bytes\n    function abi_decode_t_bytes_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_bytes_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_addresst_addresst_uint256t_bytes_memory_ptr(headStart, dataEnd) -> value0, value1, value2, value3 {\n        if slt(sub(dataEnd, headStart), 128) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 96))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value3 := abi_decode_t_bytes_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_addresst_address(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function store_literal_in_memory_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approval to current owne\")\n\n        mstore(add(memPtr, 32), \"r\")\n\n    }\n\n    function abi_encode_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 33)\n        store_literal_in_memory_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approve caller is not to\")\n\n        mstore(add(memPtr, 32), \"ken owner or approved for all\")\n\n    }\n\n    function abi_encode_t_stringliteral_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 61)\n        store_literal_in_memory_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_c6e14a63ffb144eeef7cce6988e5dce07c60a7e0a7b1ef25dbe18c61483e0a83_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: caller is not token owne\")\n\n        mstore(add(memPtr, 32), \"r or approved\")\n\n    }\n\n    function abi_encode_t_stringliteral_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 45)\n        store_literal_in_memory_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_12a8e5623d251e191fe4a291d9a59bcc01a4db7a1f5c20fc8de44358c18308af_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x32() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x32)\n        revert(0, 0x24)\n    }\n\n    function store_literal_in_memory_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: invalid token ID\")\n\n    }\n\n    function abi_encode_t_stringliteral_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 24)\n        store_literal_in_memory_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_b08d2b0fec7cc108ab049809a8beb42779d969a49299d0c317c907d9db22974f_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: address zero is not a va\")\n\n        mstore(add(memPtr, 32), \"lid owner\")\n\n    }\n\n    function abi_encode_t_stringliteral_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 41)\n        store_literal_in_memory_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_6d05c90094f31cfeb8f0eb86f0a513af3f7f8992991fbde41b08aa7960677159_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n    function abi_decode_t_uint256_fromMemory(offset, end) -> value {\n        value := mload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256_fromMemory(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256_fromMemory(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function store_literal_in_memory_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81(memPtr) {\n\n        mstore(add(memPtr, 0), \":: insufficient funds ::\")\n\n    }\n\n    function abi_encode_t_stringliteral_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 24)\n        store_literal_in_memory_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_6bccf2e30c9a434dfeaf3a56cd9cfc8ee1660f451402f8441a7a4a4bb3ab6c81_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677(memPtr) {\n\n        mstore(add(memPtr, 0), \":: not enough budget ::\")\n\n    }\n\n    function abi_encode_t_stringliteral_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 23)\n        store_literal_in_memory_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_6623e386b4349ef65bcc936ac17d08fe195554563b98c9e21cb6fdf6a2f49677_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_address_t_address_t_uint256__to_t_address_t_address_t_uint256__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_address_to_t_address_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n    }\n\n    function abi_decode_t_bool_fromMemory(offset, end) -> value {\n        value := mload(offset)\n        validator_revert_t_bool(value)\n    }\n\n    function abi_decode_tuple_t_bool_fromMemory(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bool_fromMemory(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function checked_mul_t_uint256(x, y) -> product {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        let product_raw := mul(x, y)\n        product := cleanup_t_uint256(product_raw)\n\n        // overflow, if x != 0 and y != product/x\n        if iszero(\n            or(\n                iszero(x),\n                eq(y, div(product, x))\n            )\n        ) { panic_error_0x11() }\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_nonPadded_inplace_fromStack(pos, length) -> updated_pos {\n        updated_pos := pos\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_nonPadded_inplace_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, length)\n    }\n\n    function abi_encode_tuple_packed_t_string_memory_ptr_t_string_memory_ptr__to_t_string_memory_ptr_t_string_memory_ptr__nonPadded_inplace_fromStack_reversed(pos , value1, value0) -> end {\n\n        pos := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value0,  pos)\n\n        pos := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value1,  pos)\n\n        end := pos\n    }\n\n    function store_literal_in_memory_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer from incorrect \")\n\n        mstore(add(memPtr, 32), \"owner\")\n\n    }\n\n    function abi_encode_t_stringliteral_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 37)\n        store_literal_in_memory_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_277f8ee9d5b4fc3c4149386f24de0fc1bbc63a8210e2197bfd1c0376a2ac5f48_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer to the zero add\")\n\n        mstore(add(memPtr, 32), \"ress\")\n\n    }\n\n    function abi_encode_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 36)\n        store_literal_in_memory_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function array_dataslot_t_bytes_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shl(bits, value)\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_bytes_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_bytes_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shr(bits, value)\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_bytes_memory_ptr_to_t_bytes_storage(slot, src) {\n\n        let newLen := array_length_t_bytes_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_bytes_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_bytes_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function store_literal_in_memory_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32(memPtr) {\n\n        mstore(add(memPtr, 0), \":: price too low ::\")\n\n    }\n\n    function abi_encode_t_stringliteral_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 19)\n        store_literal_in_memory_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_1a8202efe27b28e5371b91a5f50a3bd45bd7a839a4629622836b47bbb6de5e32_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x12() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x12)\n        revert(0, 0x24)\n    }\n\n    function checked_div_t_uint256(x, y) -> r {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        if iszero(y) { panic_error_0x12() }\n\n        r := div(x, y)\n    }\n\n    function array_length_t_bytes_storage(value) -> length {\n\n        length := sload(value)\n\n        length := extract_byte_array_length(length)\n\n    }\n\n    function copy_byte_array_to_storage_from_t_bytes_storage_to_t_bytes_storage(slot, src) {\n        if eq(slot, src) { leave }\n\n        let newLen := array_length_t_bytes_storage(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_bytes_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n            src := array_dataslot_t_bytes_storage(src)\n            let dstPtr := array_dataslot_t_bytes_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, sload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 1)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := sload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := sload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function store_literal_in_memory_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approve to caller\")\n\n    }\n\n    function abi_encode_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 25)\n        store_literal_in_memory_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer to non ERC721Re\")\n\n        mstore(add(memPtr, 32), \"ceiver implementer\")\n\n    }\n\n    function abi_encode_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 50)\n        store_literal_in_memory_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: mint to the zero address\")\n\n    }\n\n    function abi_encode_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 32)\n        store_literal_in_memory_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: token already minted\")\n\n    }\n\n    function abi_encode_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 28)\n        store_literal_in_memory_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_address_t_address_t_uint256_t_bytes_memory_ptr__to_t_address_t_address_t_uint256_t_bytes_memory_ptr__fromStack_reversed(headStart , value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 128)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_address_to_t_address_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n        mstore(add(headStart, 96), sub(tail, headStart))\n        tail := abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value3,  tail)\n\n    }\n\n    function abi_decode_t_bytes4_fromMemory(offset, end) -> value {\n        value := mload(offset)\n        validator_revert_t_bytes4(value)\n    }\n\n    function abi_decode_tuple_t_bytes4_fromMemory(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bytes4_fromMemory(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n}\n",
       "id": 77,
       "language": "Yul",
       "name": "#utility.yul"
@@ -25037,70 +25037,70 @@
         287
       ],
       "iii6CoinModel": [
-        13357
+        13399
       ],
       "iii6CoinModelDrop": [
-        13402
+        13444
       ],
       "iii6DiaGreenListModel": [
-        13734
+        13776
       ],
       "iii6DiaModel": [
-        13993
+        14035
       ],
       "iii6Errors": [
-        15285
+        15327
       ],
       "iii6Logs": [
-        15352
+        15394
       ],
       "iii6Math": [
-        14424
+        14466
       ],
       "iii6Misc": [
-        15388
+        15430
       ],
       "iii6PriceConsumer": [
-        15934
+        15976
       ],
       "iii6PriceMath": [
-        15232
+        15274
       ],
       "iii6Safes": [
-        17423
+        17465
       ],
       "iii6VRFAvax": [
-        16788
+        16830
       ],
       "iii6VRFBsc": [
-        17030
+        17072
       ],
       "iii6VRFChalen": [
-        17151
+        17193
       ],
       "iii6VRFEth": [
-        16062
+        16104
       ],
       "iii6VRFFantom": [
-        16546
+        16588
       ],
       "iii6VRFFantomTest": [
-        16667
+        16709
       ],
       "iii6VRFFuji": [
-        16909
+        16951
       ],
       "iii6VRFGoerli": [
-        16183
+        16225
       ],
       "iii6VRFMatic": [
-        16425
+        16467
       ],
       "iii6VRFMumbai": [
-        16304
+        16346
       ],
       "iiiDiaIdGen": [
-        14235
+        14277
       ]
     },
     "id": 5830,
@@ -25125,7 +25125,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 5830,
-        "sourceUnit": 13403,
+        "sourceUnit": 13445,
         "src": "8701:47:27",
         "symbolAliases": [],
         "unitAlias": ""
@@ -25137,7 +25137,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 5830,
-        "sourceUnit": 13994,
+        "sourceUnit": 14036,
         "src": "8749:46:27",
         "symbolAliases": [],
         "unitAlias": ""
@@ -25149,7 +25149,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 5830,
-        "sourceUnit": 15389,
+        "sourceUnit": 15431,
         "src": "8796:40:27",
         "symbolAliases": [],
         "unitAlias": ""
@@ -25165,7 +25165,7 @@
                 "8869:12:27"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 13993,
+              "referencedDeclaration": 14035,
               "src": "8869:12:27"
             },
             "id": 5290,
@@ -25180,7 +25180,7 @@
                 "8883:8:27"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 15388,
+              "referencedDeclaration": 15430,
               "src": "8883:8:27"
             },
             "id": 5292,
@@ -25190,17 +25190,17 @@
         ],
         "canonicalName": "AFL8_CampaignModel",
         "contractDependencies": [
-          13734
+          13776
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 5829,
         "linearizedBaseContracts": [
           5829,
-          15388,
-          13993,
-          15285,
-          15352,
+          15430,
+          14035,
+          15327,
+          15394,
           3607,
           3768,
           3723,
@@ -25225,7 +25225,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_iii6CoinModel_$13357",
+              "typeIdentifier": "t_contract$_iii6CoinModel_$13399",
               "typeString": "contract iii6CoinModel"
             },
             "typeName": {
@@ -25238,13 +25238,13 @@
                   "8898:13:27"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 13357,
+                "referencedDeclaration": 13399,
                 "src": "8898:13:27"
               },
-              "referencedDeclaration": 13357,
+              "referencedDeclaration": 13399,
               "src": "8898:13:27",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iii6CoinModel_$13357",
+                "typeIdentifier": "t_contract$_iii6CoinModel_$13399",
                 "typeString": "contract iii6CoinModel"
               }
             },
@@ -25483,7 +25483,7 @@
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_enum$_CampaignType_$15378",
+                  "typeIdentifier": "t_enum$_CampaignType_$15420",
                   "typeString": "enum iii6Misc.CampaignType"
                 },
                 "typeName": {
@@ -25496,13 +25496,13 @@
                       "9131:12:27"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 15378,
+                    "referencedDeclaration": 15420,
                     "src": "9131:12:27"
                   },
-                  "referencedDeclaration": 15378,
+                  "referencedDeclaration": 15420,
                   "src": "9131:12:27",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_CampaignType_$15378",
+                    "typeIdentifier": "t_enum$_CampaignType_$15420",
                     "typeString": "enum iii6Misc.CampaignType"
                   }
                 },
@@ -25520,7 +25520,7 @@
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_enum$_Status_$15359",
+                  "typeIdentifier": "t_enum$_Status_$15401",
                   "typeString": "enum iii6Misc.Status"
                 },
                 "typeName": {
@@ -25533,13 +25533,13 @@
                       "9159:6:27"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 15359,
+                    "referencedDeclaration": 15401,
                     "src": "9159:6:27"
                   },
-                  "referencedDeclaration": 15359,
+                  "referencedDeclaration": 15401,
                   "src": "9159:6:27",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Status_$15359",
+                    "typeIdentifier": "t_enum$_Status_$15401",
                     "typeString": "enum iii6Misc.Status"
                   }
                 },
@@ -25927,7 +25927,7 @@
                     "9484:12:27"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 13993,
+                  "referencedDeclaration": 14035,
                   "src": "9484:12:27"
                 },
                 "nodeType": "ModifierInvocation",
@@ -25964,7 +25964,7 @@
                 {
                   "condition": {
                     "commonType": {
-                      "typeIdentifier": "t_enum$_CampaignType_$15378",
+                      "typeIdentifier": "t_enum$_CampaignType_$15420",
                       "typeString": "enum iii6Misc.CampaignType"
                     },
                     "id": 5367,
@@ -25980,7 +25980,7 @@
                       "referencedDeclaration": 5355,
                       "src": "9871:6:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_CampaignType_$15378",
+                        "typeIdentifier": "t_enum$_CampaignType_$15420",
                         "typeString": "enum iii6Misc.CampaignType"
                       }
                     },
@@ -25992,10 +25992,10 @@
                         "name": "CampaignType",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 15378,
+                        "referencedDeclaration": 15420,
                         "src": "9881:12:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                          "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                           "typeString": "type(enum iii6Misc.CampaignType)"
                         }
                       },
@@ -26007,10 +26007,10 @@
                       "memberLocation": "9894:4:27",
                       "memberName": "View",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15373,
+                      "referencedDeclaration": 15415,
                       "src": "9881:17:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_CampaignType_$15378",
+                        "typeIdentifier": "t_enum$_CampaignType_$15420",
                         "typeString": "enum iii6Misc.CampaignType"
                       }
                     },
@@ -26023,7 +26023,7 @@
                   "falseBody": {
                     "condition": {
                       "commonType": {
-                        "typeIdentifier": "t_enum$_CampaignType_$15378",
+                        "typeIdentifier": "t_enum$_CampaignType_$15420",
                         "typeString": "enum iii6Misc.CampaignType"
                       },
                       "id": 5389,
@@ -26039,7 +26039,7 @@
                         "referencedDeclaration": 5355,
                         "src": "10057:6:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_CampaignType_$15378",
+                          "typeIdentifier": "t_enum$_CampaignType_$15420",
                           "typeString": "enum iii6Misc.CampaignType"
                         }
                       },
@@ -26051,10 +26051,10 @@
                           "name": "CampaignType",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 15378,
+                          "referencedDeclaration": 15420,
                           "src": "10067:12:27",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                            "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                             "typeString": "type(enum iii6Misc.CampaignType)"
                           }
                         },
@@ -26066,10 +26066,10 @@
                         "memberLocation": "10080:5:27",
                         "memberName": "Click",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 15374,
+                        "referencedDeclaration": 15416,
                         "src": "10067:18:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_CampaignType_$15378",
+                          "typeIdentifier": "t_enum$_CampaignType_$15420",
                           "typeString": "enum iii6Misc.CampaignType"
                         }
                       },
@@ -26082,7 +26082,7 @@
                     "falseBody": {
                       "condition": {
                         "commonType": {
-                          "typeIdentifier": "t_enum$_CampaignType_$15378",
+                          "typeIdentifier": "t_enum$_CampaignType_$15420",
                           "typeString": "enum iii6Misc.CampaignType"
                         },
                         "id": 5411,
@@ -26098,7 +26098,7 @@
                           "referencedDeclaration": 5355,
                           "src": "10245:6:27",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_CampaignType_$15378",
+                            "typeIdentifier": "t_enum$_CampaignType_$15420",
                             "typeString": "enum iii6Misc.CampaignType"
                           }
                         },
@@ -26110,10 +26110,10 @@
                             "name": "CampaignType",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 15378,
+                            "referencedDeclaration": 15420,
                             "src": "10255:12:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                              "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                               "typeString": "type(enum iii6Misc.CampaignType)"
                             }
                           },
@@ -26125,10 +26125,10 @@
                           "memberLocation": "10268:4:27",
                           "memberName": "Lead",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 15375,
+                          "referencedDeclaration": 15417,
                           "src": "10255:17:27",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_CampaignType_$15378",
+                            "typeIdentifier": "t_enum$_CampaignType_$15420",
                             "typeString": "enum iii6Misc.CampaignType"
                           }
                         },
@@ -26141,7 +26141,7 @@
                       "falseBody": {
                         "condition": {
                           "commonType": {
-                            "typeIdentifier": "t_enum$_CampaignType_$15378",
+                            "typeIdentifier": "t_enum$_CampaignType_$15420",
                             "typeString": "enum iii6Misc.CampaignType"
                           },
                           "id": 5433,
@@ -26157,7 +26157,7 @@
                             "referencedDeclaration": 5355,
                             "src": "10431:6:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_CampaignType_$15378",
+                              "typeIdentifier": "t_enum$_CampaignType_$15420",
                               "typeString": "enum iii6Misc.CampaignType"
                             }
                           },
@@ -26169,10 +26169,10 @@
                               "name": "CampaignType",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 15378,
+                              "referencedDeclaration": 15420,
                               "src": "10441:12:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                                "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                                 "typeString": "type(enum iii6Misc.CampaignType)"
                               }
                             },
@@ -26184,10 +26184,10 @@
                             "memberLocation": "10454:4:27",
                             "memberName": "Sale",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 15376,
+                            "referencedDeclaration": 15418,
                             "src": "10441:17:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_CampaignType_$15378",
+                              "typeIdentifier": "t_enum$_CampaignType_$15420",
                               "typeString": "enum iii6Misc.CampaignType"
                             }
                           },
@@ -27328,7 +27328,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_CampaignType_$15378",
+                    "typeIdentifier": "t_enum$_CampaignType_$15420",
                     "typeString": "enum iii6Misc.CampaignType"
                   },
                   "typeName": {
@@ -27341,13 +27341,13 @@
                         "9742:12:27"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 15378,
+                      "referencedDeclaration": 15420,
                       "src": "9742:12:27"
                     },
-                    "referencedDeclaration": 15378,
+                    "referencedDeclaration": 15420,
                     "src": "9742:12:27",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_CampaignType_$15378",
+                      "typeIdentifier": "t_enum$_CampaignType_$15420",
                       "typeString": "enum iii6Misc.CampaignType"
                     }
                   },
@@ -27613,7 +27613,7 @@
                             "referencedDeclaration": 5475,
                             "src": "11287:6:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_CampaignType_$15378",
+                              "typeIdentifier": "t_enum$_CampaignType_$15420",
                               "typeString": "enum iii6Misc.CampaignType"
                             }
                           },
@@ -27625,7 +27625,7 @@
                             "referencedDeclaration": 5478,
                             "src": "11311:6:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_Status_$15359",
+                              "typeIdentifier": "t_enum$_Status_$15401",
                               "typeString": "enum iii6Misc.Status"
                             }
                           }
@@ -27661,11 +27661,11 @@
                               "typeString": "bytes memory"
                             },
                             {
-                              "typeIdentifier": "t_enum$_CampaignType_$15378",
+                              "typeIdentifier": "t_enum$_CampaignType_$15420",
                               "typeString": "enum iii6Misc.CampaignType"
                             },
                             {
-                              "typeIdentifier": "t_enum$_Status_$15359",
+                              "typeIdentifier": "t_enum$_Status_$15401",
                               "typeString": "enum iii6Misc.Status"
                             }
                           ],
@@ -28294,7 +28294,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_CampaignType_$15378",
+                    "typeIdentifier": "t_enum$_CampaignType_$15420",
                     "typeString": "enum iii6Misc.CampaignType"
                   },
                   "typeName": {
@@ -28307,13 +28307,13 @@
                         "10928:12:27"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 15378,
+                      "referencedDeclaration": 15420,
                       "src": "10928:12:27"
                     },
-                    "referencedDeclaration": 15378,
+                    "referencedDeclaration": 15420,
                     "src": "10928:12:27",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_CampaignType_$15378",
+                      "typeIdentifier": "t_enum$_CampaignType_$15420",
                       "typeString": "enum iii6Misc.CampaignType"
                     }
                   },
@@ -28331,7 +28331,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_Status_$15359",
+                    "typeIdentifier": "t_enum$_Status_$15401",
                     "typeString": "enum iii6Misc.Status"
                   },
                   "typeName": {
@@ -28344,13 +28344,13 @@
                         "10957:6:27"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 15359,
+                      "referencedDeclaration": 15401,
                       "src": "10957:6:27"
                     },
-                    "referencedDeclaration": 15359,
+                    "referencedDeclaration": 15401,
                     "src": "10957:6:27",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Status_$15359",
+                      "typeIdentifier": "t_enum$_Status_$15401",
                       "typeString": "enum iii6Misc.Status"
                     }
                   },
@@ -28520,7 +28520,7 @@
                       "referencedDeclaration": 5317,
                       "src": "11791:14:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Status_$15359",
+                        "typeIdentifier": "t_enum$_Status_$15401",
                         "typeString": "enum iii6Misc.Status"
                       }
                     },
@@ -28532,10 +28532,10 @@
                         "name": "Status",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 15359,
+                        "referencedDeclaration": 15401,
                         "src": "11808:6:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_enum$_Status_$15359_$",
+                          "typeIdentifier": "t_type$_t_enum$_Status_$15401_$",
                           "typeString": "type(enum iii6Misc.Status)"
                         }
                       },
@@ -28547,16 +28547,16 @@
                       "memberLocation": "11815:6:27",
                       "memberName": "Paused",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15357,
+                      "referencedDeclaration": 15399,
                       "src": "11808:13:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Status_$15359",
+                        "typeIdentifier": "t_enum$_Status_$15401",
                         "typeString": "enum iii6Misc.Status"
                       }
                     },
                     "src": "11791:30:27",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Status_$15359",
+                      "typeIdentifier": "t_enum$_Status_$15401",
                       "typeString": "enum iii6Misc.Status"
                     }
                   },
@@ -28858,7 +28858,7 @@
                       "referencedDeclaration": 5317,
                       "src": "12173:14:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Status_$15359",
+                        "typeIdentifier": "t_enum$_Status_$15401",
                         "typeString": "enum iii6Misc.Status"
                       }
                     },
@@ -28870,10 +28870,10 @@
                         "name": "Status",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 15359,
+                        "referencedDeclaration": 15401,
                         "src": "12190:6:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_enum$_Status_$15359_$",
+                          "typeIdentifier": "t_type$_t_enum$_Status_$15401_$",
                           "typeString": "type(enum iii6Misc.Status)"
                         }
                       },
@@ -28885,16 +28885,16 @@
                       "memberLocation": "12197:6:27",
                       "memberName": "Active",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15356,
+                      "referencedDeclaration": 15398,
                       "src": "12190:13:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Status_$15359",
+                        "typeIdentifier": "t_enum$_Status_$15401",
                         "typeString": "enum iii6Misc.Status"
                       }
                     },
                     "src": "12173:30:27",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Status_$15359",
+                      "typeIdentifier": "t_enum$_Status_$15401",
                       "typeString": "enum iii6Misc.Status"
                     }
                   },
@@ -29196,7 +29196,7 @@
                       "referencedDeclaration": 5317,
                       "src": "12552:14:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Status_$15359",
+                        "typeIdentifier": "t_enum$_Status_$15401",
                         "typeString": "enum iii6Misc.Status"
                       }
                     },
@@ -29208,10 +29208,10 @@
                         "name": "Status",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 15359,
+                        "referencedDeclaration": 15401,
                         "src": "12569:6:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_enum$_Status_$15359_$",
+                          "typeIdentifier": "t_type$_t_enum$_Status_$15401_$",
                           "typeString": "type(enum iii6Misc.Status)"
                         }
                       },
@@ -29223,16 +29223,16 @@
                       "memberLocation": "12576:5:27",
                       "memberName": "Ended",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 15358,
+                      "referencedDeclaration": 15400,
                       "src": "12569:12:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Status_$15359",
+                        "typeIdentifier": "t_enum$_Status_$15401",
                         "typeString": "enum iii6Misc.Status"
                       }
                     },
                     "src": "12552:29:27",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Status_$15359",
+                      "typeIdentifier": "t_enum$_Status_$15401",
                       "typeString": "enum iii6Misc.Status"
                     }
                   },
@@ -29644,7 +29644,7 @@
                               "referencedDeclaration": 5295,
                               "src": "13069:4:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_iii6CoinModel_$13357",
+                                "typeIdentifier": "t_contract$_iii6CoinModel_$13399",
                                 "typeString": "contract iii6CoinModel"
                               }
                             },
@@ -29778,7 +29778,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_CampaignType_$15378",
+                        "typeIdentifier": "t_enum$_CampaignType_$15420",
                         "typeString": "enum iii6Misc.CampaignType"
                       },
                       "typeName": {
@@ -29791,13 +29791,13 @@
                             "13210:12:27"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 15378,
+                          "referencedDeclaration": 15420,
                           "src": "13210:12:27"
                         },
-                        "referencedDeclaration": 15378,
+                        "referencedDeclaration": 15420,
                         "src": "13210:12:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_CampaignType_$15378",
+                          "typeIdentifier": "t_enum$_CampaignType_$15420",
                           "typeString": "enum iii6Misc.CampaignType"
                         }
                       },
@@ -30016,7 +30016,7 @@
                                   "referencedDeclaration": 5664,
                                   "src": "13540:4:27",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                    "typeIdentifier": "t_enum$_CampaignType_$15420",
                                     "typeString": "enum iii6Misc.CampaignType"
                                   }
                                 },
@@ -30028,10 +30028,10 @@
                                     "name": "CampaignType",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 15378,
+                                    "referencedDeclaration": 15420,
                                     "src": "13547:12:27",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                                      "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                                       "typeString": "type(enum iii6Misc.CampaignType)"
                                     }
                                   },
@@ -30043,16 +30043,16 @@
                                   "memberLocation": "13560:8:27",
                                   "memberName": "Inactive",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 15377,
+                                  "referencedDeclaration": 15419,
                                   "src": "13547:21:27",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                    "typeIdentifier": "t_enum$_CampaignType_$15420",
                                     "typeString": "enum iii6Misc.CampaignType"
                                   }
                                 },
                                 "src": "13540:28:27",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                  "typeIdentifier": "t_enum$_CampaignType_$15420",
                                   "typeString": "enum iii6Misc.CampaignType"
                                 }
                               },
@@ -30085,7 +30085,7 @@
                                   "referencedDeclaration": 5664,
                                   "src": "13485:4:27",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                    "typeIdentifier": "t_enum$_CampaignType_$15420",
                                     "typeString": "enum iii6Misc.CampaignType"
                                   }
                                 },
@@ -30097,10 +30097,10 @@
                                     "name": "CampaignType",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 15378,
+                                    "referencedDeclaration": 15420,
                                     "src": "13492:12:27",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                                      "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                                       "typeString": "type(enum iii6Misc.CampaignType)"
                                     }
                                   },
@@ -30112,16 +30112,16 @@
                                   "memberLocation": "13505:4:27",
                                   "memberName": "Sale",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 15376,
+                                  "referencedDeclaration": 15418,
                                   "src": "13492:17:27",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                    "typeIdentifier": "t_enum$_CampaignType_$15420",
                                     "typeString": "enum iii6Misc.CampaignType"
                                   }
                                 },
                                 "src": "13485:24:27",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                  "typeIdentifier": "t_enum$_CampaignType_$15420",
                                   "typeString": "enum iii6Misc.CampaignType"
                                 }
                               },
@@ -30155,7 +30155,7 @@
                                 "referencedDeclaration": 5664,
                                 "src": "13413:4:27",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                  "typeIdentifier": "t_enum$_CampaignType_$15420",
                                   "typeString": "enum iii6Misc.CampaignType"
                                 }
                               },
@@ -30167,10 +30167,10 @@
                                   "name": "CampaignType",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 15378,
+                                  "referencedDeclaration": 15420,
                                   "src": "13420:12:27",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                                    "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                                     "typeString": "type(enum iii6Misc.CampaignType)"
                                   }
                                 },
@@ -30182,16 +30182,16 @@
                                 "memberLocation": "13433:4:27",
                                 "memberName": "Lead",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 15375,
+                                "referencedDeclaration": 15417,
                                 "src": "13420:17:27",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                  "typeIdentifier": "t_enum$_CampaignType_$15420",
                                   "typeString": "enum iii6Misc.CampaignType"
                                 }
                               },
                               "src": "13413:24:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                "typeIdentifier": "t_enum$_CampaignType_$15420",
                                 "typeString": "enum iii6Misc.CampaignType"
                               }
                             },
@@ -30225,7 +30225,7 @@
                               "referencedDeclaration": 5664,
                               "src": "13340:4:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                "typeIdentifier": "t_enum$_CampaignType_$15420",
                                 "typeString": "enum iii6Misc.CampaignType"
                               }
                             },
@@ -30237,10 +30237,10 @@
                                 "name": "CampaignType",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 15378,
+                                "referencedDeclaration": 15420,
                                 "src": "13347:12:27",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                                  "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                                   "typeString": "type(enum iii6Misc.CampaignType)"
                                 }
                               },
@@ -30252,16 +30252,16 @@
                               "memberLocation": "13360:5:27",
                               "memberName": "Click",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 15374,
+                              "referencedDeclaration": 15416,
                               "src": "13347:18:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_CampaignType_$15378",
+                                "typeIdentifier": "t_enum$_CampaignType_$15420",
                                 "typeString": "enum iii6Misc.CampaignType"
                               }
                             },
                             "src": "13340:25:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_CampaignType_$15378",
+                              "typeIdentifier": "t_enum$_CampaignType_$15420",
                               "typeString": "enum iii6Misc.CampaignType"
                             }
                           },
@@ -30295,7 +30295,7 @@
                             "referencedDeclaration": 5664,
                             "src": "13268:4:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_CampaignType_$15378",
+                              "typeIdentifier": "t_enum$_CampaignType_$15420",
                               "typeString": "enum iii6Misc.CampaignType"
                             }
                           },
@@ -30307,10 +30307,10 @@
                               "name": "CampaignType",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 15378,
+                              "referencedDeclaration": 15420,
                               "src": "13275:12:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_enum$_CampaignType_$15378_$",
+                                "typeIdentifier": "t_type$_t_enum$_CampaignType_$15420_$",
                                 "typeString": "type(enum iii6Misc.CampaignType)"
                               }
                             },
@@ -30322,16 +30322,16 @@
                             "memberLocation": "13288:4:27",
                             "memberName": "View",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 15373,
+                            "referencedDeclaration": 15415,
                             "src": "13275:17:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_CampaignType_$15378",
+                              "typeIdentifier": "t_enum$_CampaignType_$15420",
                               "typeString": "enum iii6Misc.CampaignType"
                             }
                           },
                           "src": "13268:24:27",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_CampaignType_$15378",
+                            "typeIdentifier": "t_enum$_CampaignType_$15420",
                             "typeString": "enum iii6Misc.CampaignType"
                           }
                         },
@@ -30386,7 +30386,7 @@
                         "referencedDeclaration": 5664,
                         "src": "13664:4:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_CampaignType_$15378",
+                          "typeIdentifier": "t_enum$_CampaignType_$15420",
                           "typeString": "enum iii6Misc.CampaignType"
                         }
                       },
@@ -30418,7 +30418,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_enum$_CampaignType_$15378",
+                          "typeIdentifier": "t_enum$_CampaignType_$15420",
                           "typeString": "enum iii6Misc.CampaignType"
                         },
                         {
@@ -30437,7 +30437,7 @@
                       "referencedDeclaration": 5462,
                       "src": "13651:12:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_pure$_t_enum$_CampaignType_$15378_$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
+                        "typeIdentifier": "t_function_internal_pure$_t_enum$_CampaignType_$15420_$_t_uint256_$_t_uint256_$returns$_t_uint256_$",
                         "typeString": "function (enum iii6Misc.CampaignType,uint256,uint256) pure returns (uint256)"
                       }
                     },
@@ -30588,7 +30588,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_Status_$15359",
+                        "typeIdentifier": "t_enum$_Status_$15401",
                         "typeString": "enum iii6Misc.Status"
                       },
                       "typeName": {
@@ -30601,13 +30601,13 @@
                             "13796:6:27"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 15359,
+                          "referencedDeclaration": 15401,
                           "src": "13796:6:27"
                         },
-                        "referencedDeclaration": 15359,
+                        "referencedDeclaration": 15401,
                         "src": "13796:6:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_Status_$15359",
+                          "typeIdentifier": "t_enum$_Status_$15401",
                           "typeString": "enum iii6Misc.Status"
                         }
                       },
@@ -30621,10 +30621,10 @@
                       "name": "Status",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 15359,
+                      "referencedDeclaration": 15401,
                       "src": "13810:6:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_enum$_Status_$15359_$",
+                        "typeIdentifier": "t_type$_t_enum$_Status_$15401_$",
                         "typeString": "type(enum iii6Misc.Status)"
                       }
                     },
@@ -30636,10 +30636,10 @@
                     "memberLocation": "13817:7:27",
                     "memberName": "Pending",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 15355,
+                    "referencedDeclaration": 15397,
                     "src": "13810:14:27",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_Status_$15359",
+                      "typeIdentifier": "t_enum$_Status_$15401",
                       "typeString": "enum iii6Misc.Status"
                     }
                   },
@@ -30727,7 +30727,7 @@
                             "referencedDeclaration": 5729,
                             "src": "13878:4:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_Status_$15359",
+                              "typeIdentifier": "t_enum$_Status_$15401",
                               "typeString": "enum iii6Misc.Status"
                             }
                           },
@@ -30739,10 +30739,10 @@
                               "name": "Status",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 15359,
+                              "referencedDeclaration": 15401,
                               "src": "13885:6:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_enum$_Status_$15359_$",
+                                "typeIdentifier": "t_type$_t_enum$_Status_$15401_$",
                                 "typeString": "type(enum iii6Misc.Status)"
                               }
                             },
@@ -30754,16 +30754,16 @@
                             "memberLocation": "13892:6:27",
                             "memberName": "Active",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 15356,
+                            "referencedDeclaration": 15398,
                             "src": "13885:13:27",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_enum$_Status_$15359",
+                              "typeIdentifier": "t_enum$_Status_$15401",
                               "typeString": "enum iii6Misc.Status"
                             }
                           },
                           "src": "13878:20:27",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_enum$_Status_$15359",
+                            "typeIdentifier": "t_enum$_Status_$15401",
                             "typeString": "enum iii6Misc.Status"
                           }
                         },
@@ -30897,7 +30897,7 @@
                         "referencedDeclaration": 5295,
                         "src": "13966:4:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_iii6CoinModel_$13357",
+                          "typeIdentifier": "t_contract$_iii6CoinModel_$13399",
                           "typeString": "contract iii6CoinModel"
                         }
                       },
@@ -31007,7 +31007,7 @@
                         "referencedDeclaration": 5664,
                         "src": "14137:4:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_CampaignType_$15378",
+                          "typeIdentifier": "t_enum$_CampaignType_$15420",
                           "typeString": "enum iii6Misc.CampaignType"
                         }
                       },
@@ -31019,7 +31019,7 @@
                         "referencedDeclaration": 5729,
                         "src": "14143:4:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_Status_$15359",
+                          "typeIdentifier": "t_enum$_Status_$15401",
                           "typeString": "enum iii6Misc.Status"
                         }
                       }
@@ -31047,11 +31047,11 @@
                           "typeString": "string memory"
                         },
                         {
-                          "typeIdentifier": "t_enum$_CampaignType_$15378",
+                          "typeIdentifier": "t_enum$_CampaignType_$15420",
                           "typeString": "enum iii6Misc.CampaignType"
                         },
                         {
-                          "typeIdentifier": "t_enum$_Status_$15359",
+                          "typeIdentifier": "t_enum$_Status_$15401",
                           "typeString": "enum iii6Misc.Status"
                         }
                       ],
@@ -31062,7 +31062,7 @@
                       "referencedDeclaration": 5535,
                       "src": "14082:13:27",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$_t_string_memory_ptr_$_t_enum$_CampaignType_$15378_$_t_enum$_Status_$15359_$returns$_t_bool_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$_t_string_memory_ptr_$_t_enum$_CampaignType_$15420_$_t_enum$_Status_$15401_$returns$_t_bool_$",
                         "typeString": "function (uint256,uint256,uint256,uint256,string memory,enum iii6Misc.CampaignType,enum iii6Misc.Status) returns (bool)"
                       }
                     },
@@ -31536,7 +31536,7 @@
                     "operator": "&&",
                     "rightExpression": {
                       "commonType": {
-                        "typeIdentifier": "t_enum$_Status_$15359",
+                        "typeIdentifier": "t_enum$_Status_$15401",
                         "typeString": "enum iii6Misc.Status"
                       },
                       "id": 5799,
@@ -31568,7 +31568,7 @@
                         "referencedDeclaration": 5317,
                         "src": "14534:14:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_Status_$15359",
+                          "typeIdentifier": "t_enum$_Status_$15401",
                           "typeString": "enum iii6Misc.Status"
                         }
                       },
@@ -31580,10 +31580,10 @@
                           "name": "Status",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 15359,
+                          "referencedDeclaration": 15401,
                           "src": "14552:6:27",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_enum$_Status_$15359_$",
+                            "typeIdentifier": "t_type$_t_enum$_Status_$15401_$",
                             "typeString": "type(enum iii6Misc.Status)"
                           }
                         },
@@ -31595,10 +31595,10 @@
                         "memberLocation": "14559:5:27",
                         "memberName": "Ended",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 15358,
+                        "referencedDeclaration": 15400,
                         "src": "14552:12:27",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_Status_$15359",
+                          "typeIdentifier": "t_enum$_Status_$15401",
                           "typeString": "enum iii6Misc.Status"
                         }
                       },
@@ -31657,7 +31657,7 @@
                           "lValueRequested": false,
                           "leftExpression": {
                             "commonType": {
-                              "typeIdentifier": "t_enum$_Status_$15359",
+                              "typeIdentifier": "t_enum$_Status_$15401",
                               "typeString": "enum iii6Misc.Status"
                             },
                             "id": 5805,
@@ -31689,7 +31689,7 @@
                               "referencedDeclaration": 5317,
                               "src": "14646:14:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_Status_$15359",
+                                "typeIdentifier": "t_enum$_Status_$15401",
                                 "typeString": "enum iii6Misc.Status"
                               }
                             },
@@ -31701,10 +31701,10 @@
                                 "name": "Status",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 15359,
+                                "referencedDeclaration": 15401,
                                 "src": "14664:6:27",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_enum$_Status_$15359_$",
+                                  "typeIdentifier": "t_type$_t_enum$_Status_$15401_$",
                                   "typeString": "type(enum iii6Misc.Status)"
                                 }
                               },
@@ -31716,10 +31716,10 @@
                               "memberLocation": "14671:7:27",
                               "memberName": "Pending",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 15355,
+                              "referencedDeclaration": 15397,
                               "src": "14664:14:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_Status_$15359",
+                                "typeIdentifier": "t_enum$_Status_$15401",
                                 "typeString": "enum iii6Misc.Status"
                               }
                             },
@@ -31733,7 +31733,7 @@
                           "operator": "||",
                           "rightExpression": {
                             "commonType": {
-                              "typeIdentifier": "t_enum$_Status_$15359",
+                              "typeIdentifier": "t_enum$_Status_$15401",
                               "typeString": "enum iii6Misc.Status"
                             },
                             "id": 5810,
@@ -31765,7 +31765,7 @@
                               "referencedDeclaration": 5317,
                               "src": "14698:14:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_Status_$15359",
+                                "typeIdentifier": "t_enum$_Status_$15401",
                                 "typeString": "enum iii6Misc.Status"
                               }
                             },
@@ -31777,10 +31777,10 @@
                                 "name": "Status",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 15359,
+                                "referencedDeclaration": 15401,
                                 "src": "14716:6:27",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_enum$_Status_$15359_$",
+                                  "typeIdentifier": "t_type$_t_enum$_Status_$15401_$",
                                   "typeString": "type(enum iii6Misc.Status)"
                                 }
                               },
@@ -31792,10 +31792,10 @@
                               "memberLocation": "14723:6:27",
                               "memberName": "Paused",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 15357,
+                              "referencedDeclaration": 15399,
                               "src": "14716:13:27",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_Status_$15359",
+                                "typeIdentifier": "t_enum$_Status_$15401",
                                 "typeString": "enum iii6Misc.Status"
                               }
                             },
@@ -32057,31 +32057,31 @@
         "scope": 5830,
         "src": "8838:6179:27",
         "usedErrors": [
-          15236,
-          15238,
-          15240,
-          15242,
-          15244,
-          15246,
-          15248,
-          15250,
-          15252,
-          15254,
-          15256,
-          15258,
-          15260,
-          15262,
-          15264,
-          15266,
-          15268,
-          15270,
-          15272,
-          15274,
-          15276,
           15278,
           15280,
           15282,
-          15284
+          15284,
+          15286,
+          15288,
+          15290,
+          15292,
+          15294,
+          15296,
+          15298,
+          15300,
+          15302,
+          15304,
+          15306,
+          15308,
+          15310,
+          15312,
+          15314,
+          15316,
+          15318,
+          15320,
+          15322,
+          15324,
+          15326
         ]
       }
     ],
@@ -32093,7 +32093,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2023-04-03T15:52:02.697Z",
+  "updatedAt": "2023-04-04T04:07:08.593Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
