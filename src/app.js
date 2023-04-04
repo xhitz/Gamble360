@@ -215,6 +215,8 @@ const goBuyTicket = async (i) => {
     .catch((err) => {
       console.error(err.message);
     });
+
+  // when ticket bought add to my tickets
 };
 
 const setHistory = () => {
@@ -308,15 +310,22 @@ const writeHistory = (his) => {
   let len = his.length;
   history.innerHTML = "<h2 style='grid-column:1/-1;'>History </h2>";
   for (let i = 0; i < len; i++) {
-    history.innerHTML += `<div class="histo">
-          <div id="lid"><b>Game ID : </b><b>${his[i].type}-${his[i].id}/${his[i].t0}</b></div>
-          <div id="lprice">Price : ${his[i].value}</div>
+    history.innerHTML += `<div class="histo" id="his_${i}">
+          <div id="lid"><b>ID : </b><b>${his[i].type}-${his[i].id}/${his[i].t0}</b></div>
+          <div id="lprice">Price : ${(his[i].value / 1e18).toFixed(2)}</div>
           <div id="lwin">Created : ${his[i].t0}</div>
-          <div id="ltotal">Game Type : ${his[i].type}</div>
+          <div id="ltotal">Type : ${his[i].type}</div>
           <div id="lmax">Owner : ${his[i].owner.slice(0, 5)}...${his[i].owner.slice(38, 42)} </div>
           <div id="lwin">Status : ${his[i].state}</div>
-          <div id="lwin">Ended : ${his[i].t1 == 0 ? "Pending" : "Finished @" + his[i].t1}</div>
+          <div id="lwin">${his[i].t1 < 10 ? "Pending" : "Finished @" + his[i].t1}</div>
         </div>`;
+    console.log("hide", his[i].result);
+    let hist = [];
+    if (his[i].state > 1) {
+      console.log("hide");
+      hist[i] = document.getElementById("his_" + i);
+      hist[i].style.display = "none";
+    }
   }
 };
 
@@ -332,9 +341,13 @@ const writeLottery = (his) => {
           <div id="lottoMAX_${i}">Max Tickets/User : ${his[i].max}</div>
           <div id="lottoWIN_${i}">Winning Tickets : ${his[i].winning}</div>
           <div id="lottoWIN_${i}">Lottery State : ${his[i].status > 0 ? his[i].status + " Tickets Left" : "Ticket #" + his[i].result + " won"}</div>
-          <div><input id="lottoAMOUNT_${i}" type="number" value="1" min="1" max="${his[i].max}" style="width:120px;" /></div>
+          <div>
+          ${his[i].result == his[i].result ? '<input id="lottoAMOUNT_' + i + '" type="number" value="1" min="1" max="' + his[i].max + '" style="width:120px;" />' : null}
+          </div>
           <button id="lottoBUY_${i}"  name="${i}">Buy Tickets</button>
         </div>`;
+    // 337 ::
+    // if :: lottery result !0 >> if :: user address == ownerOf(constructed -> tokenID) >> only 4 winners :: create claim button
     lottoID[i] = his[i].id;
     lottoPRICE[i] = his[i].price;
   }

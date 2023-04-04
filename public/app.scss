@@ -139,7 +139,7 @@ a {
   grid-column: 3/-1;
   grid-row: 4;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 50px 1fr 1fr;
 }
 .lotto {
@@ -148,22 +148,6 @@ a {
   padding: 0.5em;
   border: 1px solid grey;
   border-radius: 9px;
-  text-align: center;
-  font-size: 0.7em;
-}
-.histo {
-  display: grid;
-  grid-template-rows: 24px 24px 24px 24px 24px 42px 68px;
-  padding: 0.5em;
-  border: 1px solid grey;
-  border-radius: 9px;
-  text-align: center;
-  font-size: 0.5em;
-}
-.lotto:hover {
-  background: rgba(127, 127, 127, 0.5);
-}
-#buyTickets {
   width: 70px;
 }
 #headline {
