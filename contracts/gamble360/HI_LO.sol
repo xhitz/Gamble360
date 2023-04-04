@@ -70,7 +70,7 @@ contract HI_LO is standards {
                 block.timestamp,
                 _choice,
                 payable(address(0)),
-                0,
+                myGames[msg.sender],
                 !_choice,
                 1,
                 0
@@ -115,9 +115,12 @@ contract HI_LO is standards {
     function _play(Game memory _game) internal {
         if (_game.state != 1 || _game.id >= g) revert GameOver();
         _game.opponent = payable(msg.sender);
+        uint hold = _game.t1;
+        _game.c1 = !_game.c0;
         _game.t1 = block.timestamp;
         _game.state = 2;
         games[_game.id] = _game;
+        myGame[_game.owner][hold] = _game;
         myGame[msg.sender][myGames[msg.sender]] = _game;
         myGames[msg.sender]++;
         uint256 x = (_game.t1 + t) % 9;

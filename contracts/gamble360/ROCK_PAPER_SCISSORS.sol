@@ -74,7 +74,7 @@ contract ROCK_PAPER_SCISSORS is standards {
                 timer,
                 ln,
                 payable(address(0)),
-                0,
+                myGames[msg.sender],
                 0,
                 1,
                 0
@@ -121,9 +121,11 @@ contract ROCK_PAPER_SCISSORS is standards {
         if (_game.state != 1 || _game.id >= g) revert GameOver();
         _game.opponent = payable(msg.sender);
         _game.c1 = _choice;
+        uint hold = _game.t1;
         _game.t1 = block.timestamp;
         _game.state = 2;
         games[_game.id] = _game;
+        myGame[_game.owner][hold] = _game;
         myGame[msg.sender][myGames[msg.sender]] = _game;
         myGames[msg.sender]++;
         uint256 win = ((_game.value * 2) / 1000) * (1000 - fee);

@@ -28,19 +28,31 @@ a {
   padding: 0;
   text-align: center;
   color: white;
+  display: grid;
+  // background-image: url("./images/chips/red_one.png");
+}
+#chiptag,
+#imgtag {
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+}
+#chiptag {
+  margin-top: 27px;
+  font-size: 1.2em;
 }
 .chip:hover {
   background: orange;
-  color: blue;
+  color: orange;
+  border: 3px solid orange;
 }
 
 #chips {
   width: 400px;
-  height: 250;
+  height: 250px;
   padding: 0;
   margin: 0;
-  grid-column: 1/4;
-  grid-row: 2;
+  grid-column: 1/3;
+  grid-row: 2/-1;
 }
 #hi {
   background: green;
@@ -85,8 +97,6 @@ a {
   font-size: 5em;
   color: white;
   text-align: center;
-  grid-column: 4;
-  grid-row: 2;
   height: 150px;
   border: 1px solid grey;
 }
@@ -125,6 +135,13 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+#history {
+  grid-column: 3/-1;
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr;
+}
 .lotto {
   display: grid;
   grid-template-rows: 24px 24px 24px 24px 24px 42px 68px;
@@ -133,6 +150,15 @@ a {
   border-radius: 9px;
   text-align: center;
   font-size: 0.7em;
+}
+.histo {
+  display: grid;
+  grid-template-rows: 24px 24px 24px 24px 24px 42px 68px;
+  padding: 0.5em;
+  border: 1px solid grey;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 0.5em;
 }
 .lotto:hover {
   background: rgba(127, 127, 127, 0.5);

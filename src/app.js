@@ -50,6 +50,7 @@ let ten = document.getElementById("ten");
 let twen = document.getElementById("twen");
 let fourty = document.getElementById("fourt");
 let eighty = document.getElementById("eighty");
+let history = document.getElementById("history");
 const lotteryForm = document.getElementById("lotteryForm");
 const lotteryList = document.getElementById("lotteryList");
 const total = document.getElementById("total");
@@ -190,7 +191,7 @@ const doLotteryMake = () => {
 const goLotteryMake = async () => {
   console.log("make lottery");
   await LotteryLoad();
-  const goLotteryMake = await Lottery.setGame(3, { value: BigInt(LOTTERYVAL * 1e16) });
+  const goLotteryMake = await LOTTERY.setGame(3, { value: BigInt(LOTTERYVAL * 1e16) });
 };
 
 const doBuyTicket = () => {
@@ -200,7 +201,110 @@ const doBuyTicket = () => {
 const goBuyTicket = async () => {
   console.log("scissors");
   await LotteryLoad();
-  const goLotteryMake = await Lottery.setGame(3, { value: BigInt(LOTTERYVAL * 1e16) });
+  const goLotteryMake = await LOTTERY.setGame(3, { value: BigInt(LOTTERYVAL * 1e16) });
+};
+
+const setHistory = () => {
+  console.log("history");
+  getHistory();
+};
+
+const getHistory = async () => {
+  console.log("history");
+  await LotteryLoad();
+  await RPSLoad();
+  await HiLoLoad();
+  const myTicketCount = await LOTTERY.myTickets(user).then((res) => {
+    return Number(res._hex);
+  });
+  const myHistory = [];
+  let h = 0;
+  const myTickets = [];
+  for (let i = 0; i < myTicketCount; i++) {
+    let grab = await LOTTERY.myTicket(user, i);
+    myTickets[i] = {
+      id: Number(grab[0]._hex),
+      type: "lottery",
+      value: Number(grab[1]._hex),
+      owner: grab[2],
+      t0: Number(grab[3]._hex),
+      c0: Number(grab[4]._hex),
+      opponent: grab[5],
+      t1: Number(grab[6]._hex),
+      c1: Number(grab[7]._hex),
+      state: Number(grab[8]._hex),
+      result: Number(grab[9]._hex),
+    };
+    // myHistory[h] = myTickets[i];
+    console.log(myTickets[i]);
+    // h++;
+  }
+  const myHiLoCount = await HILO.myGames(user).then((res) => {
+    return Number(res._hex);
+  });
+  const myHiLos = [];
+  for (let i = 0; i < myHiLoCount; i++) {
+    let grab = await HILO.myGame(user, i);
+    myHiLos[i] = {
+      id: Number(grab[0]._hex),
+      type: "hilo",
+      value: Number(grab[1]._hex),
+      owner: grab[2],
+      t0: Number(grab[3]._hex),
+      c0: Number(grab[4]._hex),
+      opponent: grab[5],
+      t1: Number(grab[6]._hex),
+      c1: Number(grab[7]._hex),
+      state: Number(grab[8]._hex),
+      result: Number(grab[9]._hex),
+    };
+    myHistory[h] = myHiLos[i];
+    console.log(myHiLos[i]);
+    h++;
+  }
+
+  const myRPSCount = await RPS.myGames(user).then((res) => {
+    return Number(res._hex);
+  });
+  const myRPSs = [];
+  for (let i = 0; i < myRPSCount; i++) {
+    let grab = await RPS.myGame(user, i);
+    myRPSs[i] = {
+      id: Number(grab[0]._hex),
+      type: "rps",
+      value: Number(grab[1]._hex),
+      owner: grab[2],
+      t0: Number(grab[3]._hex),
+      c0: Number(grab[4]._hex),
+      opponent: grab[5],
+      t1: Number(grab[6]._hex),
+      c1: Number(grab[7]._hex),
+      state: Number(grab[8]._hex),
+      result: Number(grab[9]._hex),
+    };
+    myHistory[h] = myRPSs[i];
+    console.log(myRPSs[i]);
+    h++;
+  }
+  // console.log(myHistory);
+  writeHistory(myHistory);
+};
+
+const writeHistory = (his) => {
+  console.log(his);
+  let len = his.length;
+  history.innerHTML = "<h2 style='grid-column:1/-1;'>History </h2>";
+  for (let i = 0; i < len; i++) {
+    history.innerHTML += `<div class="histo">
+          <div id="lid"><b>Game ID : </b><b>${his[i].type}-${his[i].id}/${his[i].t0}</b></div>
+          <div id="lprice">Price : ${his[i].value}</div>
+          <div id="lwin">Created : ${his[i].t0}</div>
+          <div id="ltotal">Game Type : ${his[i].type}</div>
+          <div id="lmax">Owner : ${his[i].owner.slice(0, 5)}...${his[i].owner.slice(38, 42)} </div>
+          <div id="lwin">Status : ${his[i].state}</div>
+          <div id="lwin">Ended : ${his[i].t1 == 0 ? "NY" : his[i].t1}</div>
+        </div>`;
+  }
 };
 
 let a = 0;
@@ -301,6 +405,8 @@ const getElements = () => {
   twen = document.getElementById("twen");
   fourty = document.getElementById("fourt");
   eighty = document.getElementById("eighty");
+  history = document.getElementById("history");
+  setHistory();
 };
 
 const openAbout = () => {
